@@ -1386,7 +1386,7 @@
     (uuid 00000000-0000-0000-0000-0000600b86ec)
     (property "Reference" "U5" (id 0) (at 243.205 60.452 0))
     (property "Value" "ADC108S022CIMTX" (id 1) (at 243.205 62.7634 0))
-    (property "Footprint" "" (id 2) (at 243.205 87.63 0)
+    (property "Footprint" "Package_SO:SSOP-16_4.4x5.2mm_P0.65mm" (id 2) (at 243.205 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 243.205 87.63 0)
