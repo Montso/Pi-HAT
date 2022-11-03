@@ -2046,7 +2046,7 @@
     (uuid 4971e12a-d07a-4b0a-8cfd-ea8bd16efa5a)
     (property "Reference" "J1" (id 0) (at 27.94 80.645 0))
     (property "Value" "Screw_Terminal_01x04" (id 1) (at 27.94 83.185 0))
-    (property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Vertical" (id 2) (at 27.94 89.535 0)
+    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" (id 2) (at 27.94 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 27.94 89.535 0)
@@ -2751,7 +2751,7 @@
       (reference "IC1") (unit 1) (value "AD7730") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/4971e12a-d07a-4b0a-8cfd-ea8bd16efa5a"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Vertical")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
     )
     (path "/e7b3f30c-87be-4739-88d3-b191cd762eab"
       (reference "J4") (unit 1) (value "Barrel_Jack") (footprint "UCT:Barrel_Jack_2A_C84007")
