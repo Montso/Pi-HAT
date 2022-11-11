@@ -140,9 +140,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1206500|1022350|1ecb80a2-89f8-4595-8e02-de407d802679|9551ab3e-3f41-44ad-ac87-372d32868b23"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -383,7 +381,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "Pi HAT.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

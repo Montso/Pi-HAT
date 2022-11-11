@@ -369,7 +369,6 @@
     )
   )
 
-
   (junction (at 168.275 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 115f5409-5b2b-45f8-ad06-f8914fa56bf4)
   )
@@ -790,7 +789,7 @@
     (uuid efbe0f43-2997-43b2-b307-a9e0d23db53f)
     (property "Reference" "U1" (id 0) (at 102.87 84.455 0))
     (property "Value" "74LVC125APW,118" (id 1) (at 102.87 86.995 0))
-    (property "Footprint" "" (id 2) (at 102.87 107.315 0)
+    (property "Footprint" "74LVC125APW_118:SOP65P640X110-14N" (id 2) (at 102.87 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 102.87 107.315 0)

@@ -2046,7 +2046,7 @@
     (uuid 4971e12a-d07a-4b0a-8cfd-ea8bd16efa5a)
     (property "Reference" "J1" (id 0) (at 27.94 80.645 0))
     (property "Value" "Screw_Terminal_01x04" (id 1) (at 27.94 83.185 0))
-    (property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" (id 2) (at 27.94 89.535 0)
+    (property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Vertical" (id 2) (at 27.94 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 27.94 89.535 0)
@@ -2718,7 +2718,7 @@
       (reference "C10") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600c8c7d"
-      (reference "C11") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C11") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600ca45f"
       (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2751,7 +2751,7 @@
       (reference "IC1") (unit 1) (value "AD7730") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/4971e12a-d07a-4b0a-8cfd-ea8bd16efa5a"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock:TerminalBlock_bornier-4_P5.08mm")
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Vertical")
     )
     (path "/e7b3f30c-87be-4739-88d3-b191cd762eab"
       (reference "J4") (unit 1) (value "Barrel_Jack") (footprint "UCT:Barrel_Jack_2A_C84007")
@@ -2775,7 +2775,7 @@
       (reference "J10") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-000060149cd0"
-      (reference "J11") (unit 1) (value "Conn_01x02_Male") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J11") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/f89deedb-7b72-4123-a68d-30d62fbf81e4"
       (reference "JP1") (unit 1) (value "Jumper_3_Open") (footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm")
