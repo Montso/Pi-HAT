@@ -1285,16 +1285,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid dca1d7db-c913-4d73-a2cc-fdc9651eda69)
   )
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
   (wire (pts (xy 92.075 49.53) (xy 92.075 68.58))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid deda94a4-012e-4762-8d8b-fc34005f1aa0)
   )
-=======
->>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
->>>>>>> Stashed changes
   (wire (pts (xy 266.7 44.45) (xy 265.43 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid df01e5a0-76a5-4171-9d7c-85e5362979f3)
@@ -1513,16 +1507,6 @@
   (hierarchical_label "SCLK" (shape input) (at 265.43 44.45 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid be74a3df-bf5b-4598-bdd0-cc39621b314a)
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-  )
-  (hierarchical_label "5V_In" (shape input) (at 79.375 26.035 90)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c23f4129-643e-4b38-941c-6ba464738fa6)
->>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
   )
   (hierarchical_label "!CS" (shape input) (at 219.075 77.47 180)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -2531,7 +2515,6 @@
     (pin "1" (uuid 09ab16d4-4c4e-4cd8-b630-9c96b938ee35))
   )
 
-<<<<<<< HEAD
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 92.075 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5e0ee9bc-e95e-43cb-8bbe-4cc91e620905)
@@ -2546,80 +2529,6 @@
     (pin "1" (uuid 475fa895-90ea-41fe-98b8-90f2f4ab49f1))
     (pin "2" (uuid f084d539-b16e-457e-bc55-97d5debe3001))
     (pin "3" (uuid 69adf725-79f1-409f-ba7f-59180152f810))
-  )
-
-=======
->>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
-  (symbol (lib_id "Connector:TestPoint") (at 252.73 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 6caf196e-dcfe-4294-9da5-689e6f22f042)
-    (property "Reference" "TP3" (id 0) (at 254 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (id 1) (at 254 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (id 2) (at 257.81 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 257.81 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2d376ccd-6833-4958-afe5-e6fd2d377390))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 237.49 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 73e3223a-0afd-438b-8fcb-933535615d47)
-    (property "Reference" "TP2" (id 0) (at 238.76 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (id 1) (at 238.76 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (id 2) (at 242.57 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 242.57 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c981440d-8800-4bad-8639-3dd7c36ab815))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 223.52 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid cca3808a-d6bb-44a3-ad1d-2a1c034fb726)
-    (property "Reference" "TP1" (id 0) (at 224.79 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (id 1) (at 224.79 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (id 2) (at 228.6 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 228.6 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1954364e-f5c9-40dc-9329-f124fc49fd1c))
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 266.7 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 3b600e6a-acbe-4f8c-ad56-d17f4e961218)
-    (property "Reference" "TP4" (id 0) (at 267.97 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (id 1) (at 267.97 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (id 2) (at 271.78 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 271.78 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09ab16d4-4c4e-4cd8-b630-9c96b938ee35))
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 252.73 43.18 0) (unit 1)
