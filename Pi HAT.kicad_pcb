@@ -126,7 +126,15 @@
   (net 32 "/Relays/COM2")
   (net 33 "/Relays/NC2")
   (net 34 "/Power Monitor/IN1")
+<<<<<<< Updated upstream
   (net 35 "Net-(J10-Pad2)")
+=======
+<<<<<<< HEAD
+  (net 35 "Net-(J9-Pad1)")
+=======
+  (net 35 "Net-(J10-Pad2)")
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (net 36 "/Power Monitor/IN0")
   (net 37 "Net-(JP5-Pad2)")
   (net 38 "Net-(JP6-Pad1)")
@@ -171,7 +179,15 @@
   (net 77 "/GPIO21_SPI_SCLK")
   (net 78 "/GPIO16_SPI_CE2_N")
   (net 79 "Net-(D4-Pad2)")
+<<<<<<< Updated upstream
   (net 80 "Net-(J11-Pad1)")
+=======
+<<<<<<< HEAD
+  (net 80 "/Power Monitor/Batt_Sensed")
+=======
+  (net 80 "Net-(J11-Pad1)")
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (net 81 "Net-(D5-Pad2)")
   (net 82 "Net-(D3-Pad1)")
 
@@ -360,7 +376,15 @@
     (fp_line (start 1.27 -1.27) (end 1.27 6.35) (layer "F.Fab") (width 0.1) (tstamp 72796997-f6b0-479a-973e-7d053ba0de79))
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer "F.Fab") (width 0.1) (tstamp abc47e51-fc17-44d1-8c79-01328cfb4dc3))
     (pad "1" thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+<<<<<<< Updated upstream
       (net 35 "Net-(J10-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 34f17131-66b6-4db2-a6e4-f1b2b1646940))
+=======
+<<<<<<< HEAD
+      (net 35 "Net-(J9-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 34f17131-66b6-4db2-a6e4-f1b2b1646940))
+=======
+      (net 35 "Net-(J10-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 34f17131-66b6-4db2-a6e4-f1b2b1646940))
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
     (pad "2" thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 36 "/Power Monitor/IN0") (pinfunction "Pin_2") (pintype "passive") (tstamp 31569ed2-e666-436c-89aa-706244e229e2))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -1129,9 +1153,21 @@
     (pad "2" smd roundrect (at -2.475 -0.635) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "+BATT") (pinfunction "IP+") (pintype "passive") (tstamp 1ce510f0-c262-43f2-99ed-6d738cd6067a))
     (pad "3" smd roundrect (at -2.475 0.635) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+<<<<<<< Updated upstream
       (net 80 "Net-(J11-Pad1)") (pinfunction "IP-") (pintype "passive") (tstamp 7f71f9ca-a674-493a-919d-56faf143f1c5))
     (pad "4" smd roundrect (at -2.475 1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 80 "Net-(J11-Pad1)") (pinfunction "IP-") (pintype "passive") (tstamp bd36f7dd-81a3-43d2-92e2-11589b5c5b73))
+=======
+<<<<<<< HEAD
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "IP-") (pintype "passive") (tstamp 7f71f9ca-a674-493a-919d-56faf143f1c5))
+    (pad "4" smd roundrect (at -2.475 1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "IP-") (pintype "passive") (tstamp bd36f7dd-81a3-43d2-92e2-11589b5c5b73))
+=======
+      (net 80 "Net-(J11-Pad1)") (pinfunction "IP-") (pintype "passive") (tstamp 7f71f9ca-a674-493a-919d-56faf143f1c5))
+    (pad "4" smd roundrect (at -2.475 1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 80 "Net-(J11-Pad1)") (pinfunction "IP-") (pintype "passive") (tstamp bd36f7dd-81a3-43d2-92e2-11589b5c5b73))
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
     (pad "5" smd roundrect (at 2.475 1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "GND") (pinfunction "GND") (pintype "power_in") (tstamp b74c49e4-7ab8-4bf6-a041-6f4143c99ba3))
     (pad "6" smd roundrect (at 2.475 0.635) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -1147,6 +1183,67 @@
     )
   )
 
+<<<<<<< HEAD
+  (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
+    (tedit 5FA16958) (tstamp 4e4a49e5-3aa6-4b9b-9b73-1a4c596b344e)
+    (at 148.9733 130.6576)
+    (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+    (tags "SOT TO_SOT_SMD")
+    (property "Sheetfile" "switching.kicad_sch")
+    (property "Sheetname" "Relays")
+    (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/118f50b1-66cb-446e-bc32-2d198f357792")
+    (attr smd)
+    (fp_text reference "Q3" (at 1.2677 -2.2606) (layer "F.SilkS")
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
+      (tstamp 06e76acb-ea00-4971-8ba1-88860b73af53)
+    )
+    (fp_text value "S8050_SMD" (at 0 2.4) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp fd94a7d3-dc6d-4a59-988d-5c7df084e5c9)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.32 0.32) (thickness 0.05)))
+      (tstamp 651c5db7-14dd-41f9-9f1a-5dcc3ea200e0)
+    )
+    (fp_line (start 0 1.56) (end -0.65 1.56) (layer "F.SilkS") (width 0.12) (tstamp 5c99aa0e-bb42-4d3c-a194-5b93f840b9d1))
+    (fp_line (start 0 -1.56) (end -1.675 -1.56) (layer "F.SilkS") (width 0.12) (tstamp ae0a03e1-5225-4521-a21f-ee8b370277c6))
+    (fp_line (start 0 1.56) (end 0.65 1.56) (layer "F.SilkS") (width 0.12) (tstamp ed3f3b60-4288-4b92-b93f-5cf2c153d8c7))
+    (fp_line (start 0 -1.56) (end 0.65 -1.56) (layer "F.SilkS") (width 0.12) (tstamp f9754d0f-8ae8-4616-bcf9-bb9436b2b53c))
+    (fp_line (start -1.92 1.7) (end 1.92 1.7) (layer "F.CrtYd") (width 0.05) (tstamp 2802a149-a360-488a-88dd-eef691cd3698))
+    (fp_line (start 1.92 1.7) (end 1.92 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp 4a0f7be0-3228-4ff8-8456-40c8171cbf6f))
+    (fp_line (start 1.92 -1.7) (end -1.92 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp ae2f64f5-4d4a-4637-96ca-468cbb95397c))
+    (fp_line (start -1.92 -1.7) (end -1.92 1.7) (layer "F.CrtYd") (width 0.05) (tstamp d3308d37-1695-49e7-8af1-d32dcc1006d2))
+    (fp_line (start -0.325 -1.45) (end 0.65 -1.45) (layer "F.Fab") (width 0.1) (tstamp 56905fb1-ef16-45fc-ab5e-f6528ccd3deb))
+    (fp_line (start -0.65 -1.125) (end -0.325 -1.45) (layer "F.Fab") (width 0.1) (tstamp c1e615ca-9183-46c2-a209-0e6d0cfd7640))
+    (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer "F.Fab") (width 0.1) (tstamp d381dc28-2600-4438-a2c0-7e6e588c9a5b))
+    (fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer "F.Fab") (width 0.1) (tstamp d8e4f805-a22f-4599-b3f8-763013945aed))
+    (fp_line (start -0.65 1.45) (end -0.65 -1.125) (layer "F.Fab") (width 0.1) (tstamp ff66fbfa-ac52-4070-8529-e51f9baa54f6))
+    (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 41 "Net-(Q3-Pad1)") (pinfunction "B") (pintype "input") (tstamp f31d167d-91fd-4764-8391-cf80917b8787))
+    (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 3 "GND") (pinfunction "E") (pintype "passive") (tstamp 9057feca-9691-4dbb-817e-387719151832))
+    (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 14 "Net-(D2-Pad2)") (pinfunction "C") (pintype "passive") (tstamp 1e6bfdbe-56c2-4e16-ae6f-5b2417395515))
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp 549919b2-5451-48a6-a486-43f08367bd06)
+    (at 119.1 107.85)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600e2945")
+    (attr smd)
+    (fp_text reference "R5" (at -1.55 0.06) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp c0961d80-1db5-42bc-88ec-f713ecc67497)
+=======
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 4e411710-b38b-40fe-9321-29230cd71c4b)
     (at 150.66 140.965 180)
@@ -1159,15 +1256,122 @@
     (fp_text reference "J8" (at 2.54 -1.016 90) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 7e020940-e87b-4a6e-9358-2e9c22eeb54d)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
     )
-    (fp_text value "Conn_01x03_Male" (at 0 7.41) (layer "F.Fab")
+    (fp_text value "68k" (at -0.5 -1.33) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 303836d6-ce46-41c5-9779-95a79d1e1944)
+      (tstamp 89b120e2-9f01-4bbb-b0dc-b1c98f953881)
     )
-    (fp_text user "${REFERENCE}" (at 0 2.54 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 83868e66-d7d5-4fc6-a1e9-23797aad5e16)
+    )
+<<<<<<< Updated upstream
+=======
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp 4ce8a436-cc32-43cf-a36f-298bed141295))
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 84120cac-9c72-4ae8-9647-f1bebc062765))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 09caf3d3-8898-4f8e-a628-b5d92135016f))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 0a707e8e-cd54-477e-a254-033afe0cb8ed))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 13d0232d-66ed-4344-a9be-8666f642b3c5))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp c75a3663-0958-4e5b-a045-c6209d9a05a1))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 3672eef0-59b1-43b2-84e2-7cb7bc95f90a))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 4bdf5460-a4f0-4e8f-8c6d-a7fd1e61649d))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 4dc91a27-1bb1-4d6e-96a5-902ccfa06cd2))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 884198ef-be2e-432c-aab2-40fc3ccc731c))
+    (pad "1" smd roundrect (at -0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 27 "+BATT") (pintype "passive") (tstamp 981a6372-0ef3-4ffc-854f-b79577b6cf02))
+    (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 38 "Net-(JP6-Pad1)") (pintype "passive") (tstamp e18aa028-4cb1-4acd-a65a-4c16a44d232d))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp 55e37a40-b02f-4718-81fb-e86717ae1fef)
+    (at 129.5908 127.5588 90)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-00006018db14")
+    (attr smd)
+    (fp_text reference "R12" (at -1.5312 0.4092 180) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp a3c9426f-58e6-49e4-8413-5898d832f555)
+    )
+    (fp_text value "220R" (at 0 1.17 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a0feec18-46b3-46c1-a001-f2132990899f)
+      (tstamp 9a6b4e0a-d096-4b1b-b1be-e6438e0d3fff)
     )
+<<<<<<< HEAD
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 6524211f-95c5-4b56-baa7-85af5e9ad8a5)
+    )
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 1074319a-5506-4edc-9750-ab799b1774b1))
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp c3b39430-6457-414a-b9f6-625c1cd50f3f))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp a63619c0-13a0-42b6-aaa7-cfd0bb62b2e7))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp c943f810-3f96-42ab-8bae-e5d114dcb6eb))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp d3c574aa-0c66-4b2b-b297-0b566eedb944))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp e4e2bbba-74cb-47c0-ad48-bf7ad857c02c))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 1680bd27-4e01-494b-8846-8d03b924d83c))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 23867d4f-7da1-4be0-835c-f4d44aa75de7))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp df3f4c64-1554-42af-8c8e-2b0cbd49e78a))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp ef349cf4-2b9a-41c2-96a5-6502fd16ee2f))
+    (pad "1" smd roundrect (at -0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 34 "/Power Monitor/IN1") (pintype "passive") (tstamp c613398b-5390-450a-9896-8351a51f876f))
+    (pad "2" smd roundrect (at 0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 10 "/Power Monitor/ADC3") (pintype "passive") (tstamp 8eae0b6f-818e-4045-91d4-e89308cfe442))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Diode_SMD:D_0603_1608Metric" (layer "F.Cu")
+    (tedit 5F68FEF0) (tstamp 58dc43bc-3ac6-4a79-b622-5be739dab879)
+    (at 119.634 112.268 -90)
+    (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+    (tags "diode")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-00006013a84a")
+    (attr smd)
+    (fp_text reference "D3" (at -0.254 1.27 90) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
+      (tstamp bac8920c-0bd7-4f69-9442-73a3b8286093)
+    )
+    (fp_text value "LED_Small" (at 0 1.43 90) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 904ddffc-a51d-47ce-9e07-437882de6179)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (tstamp a320dee5-ad40-4fcb-b8e2-3f6c06bb543b)
+    )
+    (fp_line (start -1.485 0.735) (end 0.8 0.735) (layer "F.SilkS") (width 0.12) (tstamp 3b89ee93-9aa5-4566-ac6b-5c1c9d68e880))
+    (fp_line (start 0.8 -0.735) (end -1.485 -0.735) (layer "F.SilkS") (width 0.12) (tstamp 7f25de6b-24db-487e-a1cf-00d5f679b6a7))
+    (fp_line (start -1.485 -0.735) (end -1.485 0.735) (layer "F.SilkS") (width 0.12) (tstamp b9d050d0-08f0-4e78-b5aa-523fb65ff83d))
+    (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 32f4bec6-13f1-4793-8a10-4272523140be))
+    (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp c6ead13a-5c04-49b9-a2a9-51ec9bdad270))
+    (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp cdb5b56f-cdd0-4837-9338-6b5fc8afb50b))
+    (fp_line (start -1.48 0.73) (end -1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp fe07899b-1f5c-49e5-b7e4-41296582493b))
+    (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 02c1ca41-dd34-4aaa-89b8-b16254e75e6c))
+    (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 0d137d95-07a2-4d42-b653-5b59dfad3133))
+    (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 918f7b14-452c-44e2-b43a-445c17830779))
+    (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp 9e935661-85bf-46b7-a7f2-240d7c6701ee))
+    (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp dcb145f8-25c3-43db-bac4-abbc42c5538b))
+    (pad "1" smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 82 "Net-(D3-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 2ac36b72-10a8-4c65-9174-adc7833d8ae6))
+    (pad "2" smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 2 "+5V") (pinfunction "A") (pintype "passive") (tstamp c464b2e7-bd10-42cd-8c31-8212f7c8bd6a))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+=======
+>>>>>>> Stashed changes
     (fp_line (start -1.33 1.27) (end 1.33 1.27) (layer "F.SilkS") (width 0.12) (tstamp 2ab8cfec-7570-49df-9093-b4ee48ede7f9))
     (fp_line (start -1.33 6.41) (end 1.33 6.41) (layer "F.SilkS") (width 0.12) (tstamp 4404ee15-358b-4b19-99fc-a35470c588b1))
     (fp_line (start -1.33 -1.33) (end 0 -1.33) (layer "F.SilkS") (width 0.12) (tstamp c12a4f40-e4cc-4162-9694-0a69ffc69fd4))
@@ -1190,6 +1394,7 @@
     (pad "3" thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 "GND") (pinfunction "Pin_3") (pintype "passive") (tstamp e4a79aae-3f24-4671-8aae-74942e1a7167))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1257,6 +1462,200 @@
       (tstamp c0961d80-1db5-42bc-88ec-f713ecc67497)
     )
     (fp_text value "68k" (at -0.5 -1.33) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 89b120e2-9f01-4bbb-b0dc-b1c98f953881)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 83868e66-d7d5-4fc6-a1e9-23797aad5e16)
+    )
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp 4ce8a436-cc32-43cf-a36f-298bed141295))
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 84120cac-9c72-4ae8-9647-f1bebc062765))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 09caf3d3-8898-4f8e-a628-b5d92135016f))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 0a707e8e-cd54-477e-a254-033afe0cb8ed))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 13d0232d-66ed-4344-a9be-8666f642b3c5))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp c75a3663-0958-4e5b-a045-c6209d9a05a1))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 3672eef0-59b1-43b2-84e2-7cb7bc95f90a))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 4bdf5460-a4f0-4e8f-8c6d-a7fd1e61649d))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 4dc91a27-1bb1-4d6e-96a5-902ccfa06cd2))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 884198ef-be2e-432c-aab2-40fc3ccc731c))
+    (pad "1" smd roundrect (at -0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 27 "+BATT") (pintype "passive") (tstamp 981a6372-0ef3-4ffc-854f-b79577b6cf02))
+    (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 38 "Net-(JP6-Pad1)") (pintype "passive") (tstamp e18aa028-4cb1-4acd-a65a-4c16a44d232d))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp 55e37a40-b02f-4718-81fb-e86717ae1fef)
+    (at 129.5908 127.5588 90)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-00006018db14")
+    (attr smd)
+    (fp_text reference "R12" (at -1.5312 0.4092 180) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp a3c9426f-58e6-49e4-8413-5898d832f555)
+    )
+    (fp_text value "220R" (at 0 1.17 90) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9a6b4e0a-d096-4b1b-b1be-e6438e0d3fff)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 6524211f-95c5-4b56-baa7-85af5e9ad8a5)
+    )
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 1074319a-5506-4edc-9750-ab799b1774b1))
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp c3b39430-6457-414a-b9f6-625c1cd50f3f))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp a63619c0-13a0-42b6-aaa7-cfd0bb62b2e7))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp c943f810-3f96-42ab-8bae-e5d114dcb6eb))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp d3c574aa-0c66-4b2b-b297-0b566eedb944))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp e4e2bbba-74cb-47c0-ad48-bf7ad857c02c))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 1680bd27-4e01-494b-8846-8d03b924d83c))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 23867d4f-7da1-4be0-835c-f4d44aa75de7))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp df3f4c64-1554-42af-8c8e-2b0cbd49e78a))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp ef349cf4-2b9a-41c2-96a5-6502fd16ee2f))
+    (pad "1" smd roundrect (at -0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 34 "/Power Monitor/IN1") (pintype "passive") (tstamp c613398b-5390-450a-9896-8351a51f876f))
+    (pad "2" smd roundrect (at 0.51 0 90) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 10 "/Power Monitor/ADC3") (pintype "passive") (tstamp 8eae0b6f-818e-4045-91d4-e89308cfe442))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Diode_SMD:D_0603_1608Metric" (layer "F.Cu")
+    (tedit 5F68FEF0) (tstamp 58dc43bc-3ac6-4a79-b622-5be739dab879)
+    (at 119.634 112.268 -90)
+    (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+    (tags "diode")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-00006013a84a")
+    (attr smd)
+    (fp_text reference "D3" (at -0.254 1.27 90) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
+      (tstamp bac8920c-0bd7-4f69-9442-73a3b8286093)
+    )
+    (fp_text value "LED_Small" (at 0 1.43 90) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 904ddffc-a51d-47ce-9e07-437882de6179)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (tstamp a320dee5-ad40-4fcb-b8e2-3f6c06bb543b)
+    )
+    (fp_line (start -1.485 0.735) (end 0.8 0.735) (layer "F.SilkS") (width 0.12) (tstamp 3b89ee93-9aa5-4566-ac6b-5c1c9d68e880))
+    (fp_line (start 0.8 -0.735) (end -1.485 -0.735) (layer "F.SilkS") (width 0.12) (tstamp 7f25de6b-24db-487e-a1cf-00d5f679b6a7))
+    (fp_line (start -1.485 -0.735) (end -1.485 0.735) (layer "F.SilkS") (width 0.12) (tstamp b9d050d0-08f0-4e78-b5aa-523fb65ff83d))
+    (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 32f4bec6-13f1-4793-8a10-4272523140be))
+    (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp c6ead13a-5c04-49b9-a2a9-51ec9bdad270))
+    (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp cdb5b56f-cdd0-4837-9338-6b5fc8afb50b))
+    (fp_line (start -1.48 0.73) (end -1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp fe07899b-1f5c-49e5-b7e4-41296582493b))
+    (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 02c1ca41-dd34-4aaa-89b8-b16254e75e6c))
+    (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 0d137d95-07a2-4d42-b653-5b59dfad3133))
+    (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 918f7b14-452c-44e2-b43a-445c17830779))
+    (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp 9e935661-85bf-46b7-a7f2-240d7c6701ee))
+    (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp dcb145f8-25c3-43db-bac4-abbc42c5538b))
+    (pad "1" smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 82 "Net-(D3-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 2ac36b72-10a8-4c65-9174-adc7833d8ae6))
+    (pad "2" smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 2 "+5V") (pinfunction "A") (pintype "passive") (tstamp c464b2e7-bd10-42cd-8c31-8212f7c8bd6a))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+<<<<<<< Updated upstream
+  (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
+    (tedit 5FA16958) (tstamp 4e4a49e5-3aa6-4b9b-9b73-1a4c596b344e)
+    (at 148.9733 130.6576)
+    (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+    (tags "SOT TO_SOT_SMD")
+    (property "Sheetfile" "switching.kicad_sch")
+    (property "Sheetname" "Relays")
+    (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/118f50b1-66cb-446e-bc32-2d198f357792")
+    (attr smd)
+    (fp_text reference "Q3" (at 1.2677 -2.2606) (layer "F.SilkS")
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
+      (tstamp 06e76acb-ea00-4971-8ba1-88860b73af53)
+=======
+  (footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" (layer "F.Cu")
+    (tedit 58FA3148) (tstamp 5a65d3d7-41be-40bb-8027-20f6978e628b)
+    (at 157.232 100.457 -90)
+    (descr "relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf")
+    (tags "relay Sanyu SRD form C")
+    (property "Sheetfile" "switching.kicad_sch")
+    (property "Sheetname" "Relays")
+    (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/05d5c21b-72b8-462f-93d1-e89b3d24d9d5")
+    (attr through_hole)
+    (fp_text reference "K2" (at 19.283 7.142 180) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 1d59ed75-3d88-47d9-9a2e-0457ad45a577)
+>>>>>>> Stashed changes
+    )
+    (fp_text value "S8050_SMD" (at 0 2.4) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp fd94a7d3-dc6d-4a59-988d-5c7df084e5c9)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.32 0.32) (thickness 0.05)))
+      (tstamp 651c5db7-14dd-41f9-9f1a-5dcc3ea200e0)
+    )
+    (fp_line (start 0 1.56) (end -0.65 1.56) (layer "F.SilkS") (width 0.12) (tstamp 5c99aa0e-bb42-4d3c-a194-5b93f840b9d1))
+    (fp_line (start 0 -1.56) (end -1.675 -1.56) (layer "F.SilkS") (width 0.12) (tstamp ae0a03e1-5225-4521-a21f-ee8b370277c6))
+    (fp_line (start 0 1.56) (end 0.65 1.56) (layer "F.SilkS") (width 0.12) (tstamp ed3f3b60-4288-4b92-b93f-5cf2c153d8c7))
+    (fp_line (start 0 -1.56) (end 0.65 -1.56) (layer "F.SilkS") (width 0.12) (tstamp f9754d0f-8ae8-4616-bcf9-bb9436b2b53c))
+    (fp_line (start -1.92 1.7) (end 1.92 1.7) (layer "F.CrtYd") (width 0.05) (tstamp 2802a149-a360-488a-88dd-eef691cd3698))
+    (fp_line (start 1.92 1.7) (end 1.92 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp 4a0f7be0-3228-4ff8-8456-40c8171cbf6f))
+    (fp_line (start 1.92 -1.7) (end -1.92 -1.7) (layer "F.CrtYd") (width 0.05) (tstamp ae2f64f5-4d4a-4637-96ca-468cbb95397c))
+    (fp_line (start -1.92 -1.7) (end -1.92 1.7) (layer "F.CrtYd") (width 0.05) (tstamp d3308d37-1695-49e7-8af1-d32dcc1006d2))
+    (fp_line (start -0.325 -1.45) (end 0.65 -1.45) (layer "F.Fab") (width 0.1) (tstamp 56905fb1-ef16-45fc-ab5e-f6528ccd3deb))
+    (fp_line (start -0.65 -1.125) (end -0.325 -1.45) (layer "F.Fab") (width 0.1) (tstamp c1e615ca-9183-46c2-a209-0e6d0cfd7640))
+    (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer "F.Fab") (width 0.1) (tstamp d381dc28-2600-4438-a2c0-7e6e588c9a5b))
+    (fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer "F.Fab") (width 0.1) (tstamp d8e4f805-a22f-4599-b3f8-763013945aed))
+    (fp_line (start -0.65 1.45) (end -0.65 -1.125) (layer "F.Fab") (width 0.1) (tstamp ff66fbfa-ac52-4070-8529-e51f9baa54f6))
+    (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 41 "Net-(Q3-Pad1)") (pinfunction "B") (pintype "input") (tstamp f31d167d-91fd-4764-8391-cf80917b8787))
+    (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 3 "GND") (pinfunction "E") (pintype "passive") (tstamp 9057feca-9691-4dbb-817e-387719151832))
+    (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 14 "Net-(D2-Pad2)") (pinfunction "C") (pintype "passive") (tstamp 1e6bfdbe-56c2-4e16-ae6f-5b2417395515))
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp 549919b2-5451-48a6-a486-43f08367bd06)
+    (at 127.81 108.21)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600e2945")
+    (attr smd)
+    (fp_text reference "R5" (at -1.55 0.06) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp c0961d80-1db5-42bc-88ec-f713ecc67497)
+    )
+<<<<<<< Updated upstream
+    (fp_text value "68k" (at -0.5 -1.33) (layer "F.Fab")
+=======
+    (fp_text user "${REFERENCE}" (at 5.1605 -5.164) (layer "F.Fab")
+>>>>>>> Stashed changes
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89b120e2-9f01-4bbb-b0dc-b1c98f953881)
     )
@@ -1445,22 +1844,38 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 5bed274e-95af-4053-8aa3-39064546a500)
+<<<<<<< Updated upstream
     (at 146.299 138.049 90)
+=======
+<<<<<<< HEAD
+    (at 120.7 123.375)
+=======
+    (at 146.299 138.049 90)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "power_monitor.kicad_sch")
     (property "Sheetname" "Power Monitor")
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-000060149cd0")
     (attr through_hole)
+<<<<<<< Updated upstream
     (fp_text reference "J11" (at 2.457 -0.502) (layer "F.SilkS")
+=======
+<<<<<<< HEAD
+    (fp_text reference "J11" (at 2.457 -0.502 90) (layer "F.SilkS")
+=======
+    (fp_text reference "J11" (at 2.457 -0.502) (layer "F.SilkS")
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93ce3c61-32fe-4e1e-99d1-ffe35be1a120)
     )
-    (fp_text value "Conn_01x02_Male" (at 0 4.87 90) (layer "F.Fab")
+    (fp_text value "Conn_01x02_Male" (at 0 4.87) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bac1c836-769d-4cf0-ad5d-f1e1b7e4dece)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.27) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.27 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 790adcea-bf20-45e9-896b-5211115fc743)
     )
@@ -1479,9 +1894,15 @@
     (fp_line (start 1.27 3.81) (end -1.27 3.81) (layer "F.Fab") (width 0.1) (tstamp 7d6eaae3-133a-4402-99da-3332d842b8c6))
     (fp_line (start -1.27 3.81) (end -1.27 -0.635) (layer "F.Fab") (width 0.1) (tstamp 9aed8fb3-ee32-4ff0-9fac-f9c811e980aa))
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp ff3a8ea1-adaa-4e88-8b46-9949381cf30c))
+<<<<<<< HEAD
+    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "Pin_1") (pintype "passive") (tstamp f4079b09-3d03-4869-90e1-cb10204841d5))
+    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+=======
     (pad "1" thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 80 "Net-(J11-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp f4079b09-3d03-4869-90e1-cb10204841d5))
     (pad "2" thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
       (net 3 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp eb9fafa0-c05f-4a08-9aee-2be865b0f4bb))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -2017,6 +2438,12 @@
     (property "Sheetfile" "power_monitor.kicad_sch")
     (property "Sheetname" "Power Monitor")
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600e9428")
+<<<<<<< Updated upstream
+    (attr smd)
+    (fp_text reference "R7" (at 1.35 0.81) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 0b484eed-e20a-4b93-a219-13503f654b7e)
+=======
     (attr smd)
     (fp_text reference "R7" (at 1.35 0.81) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2132,6 +2559,233 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp c15e4bca-8a30-44e4-b3ac-6f77a23d86a6)
+    (at 129.6416 117.6782)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600d1409")
+    (attr smd)
+    (fp_text reference "R15" (at 1.7584 0.0418 180) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 7b8d2b4a-8dfe-4925-9978-cec84d4c2c85)
+>>>>>>> Stashed changes
+    )
+    (fp_text value "33k" (at 0 1.17) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6fe7baf4-922f-4c23-80ea-306d00ead33d)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 653dd472-97cb-4883-a18c-b110c2d20c8e)
+    )
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 1fdda653-28af-43a0-ad60-10933648c699))
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp 2cd3e89e-70b4-4c09-9f4b-d1e5dd47e3e9))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 23be5732-5776-4171-a65d-e0b2682f9123))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 39ee8493-ff62-4f21-83e7-b47c4d95f4e8))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 506218b4-f221-413f-a92a-c7bc2766a7ca))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 882c4fed-9695-42f8-9732-b04a710fdfce))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 6caca23c-3422-4398-82f9-cbdf0cc64e20))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 8a49f0c0-1ccc-41f6-9a72-c833862f2b74))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp c7ee96aa-e364-451e-8ba7-825b6fd1969f))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp d9b61ed7-ea34-46eb-a944-bdbac365cd76))
+    (pad "1" smd roundrect (at -0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 46 "/Power Monitor/ADC6") (pintype "passive") (tstamp 3759432a-f171-4260-b357-a2ac6d5cf91c))
+    (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 3 "GND") (pintype "passive") (tstamp 4c082604-9c56-4a78-b9b7-c3b53af832de))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Diode_SMD:D_0603_1608Metric" locked (layer "F.Cu")
+    (tedit 5F68FEF0) (tstamp c33766fd-2f15-48ad-a63f-170615ccc0d1)
+    (at 138.743 122.428)
+    (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+    (tags "diode")
+    (property "Sheetfile" "switching.kicad_sch")
+    (property "Sheetname" "Relays")
+    (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/3cf801d3-1c67-4a46-85de-edfa7a8697ed")
+    (attr smd)
+    (fp_text reference "D5" (at -2.472 0) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d2faaae3-5ba4-4e36-8f7d-ea5857379f54)
+    )
+    (fp_text value "LED_Small" (at 0 1.43) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 03074333-b349-44aa-a45b-6dce92bf5c99)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (tstamp e60ff225-493e-44cf-a042-33dbad64f293)
+    )
+    (fp_line (start 0.8 -0.735) (end -1.485 -0.735) (layer "F.SilkS") (width 0.12) (tstamp 17224e2d-71d8-4ce7-ba18-c59c3ff91409))
+    (fp_line (start -1.485 0.735) (end 0.8 0.735) (layer "F.SilkS") (width 0.12) (tstamp 67d5bc65-e25a-4495-948c-6c6bbb6b3e46))
+    (fp_line (start -1.485 -0.735) (end -1.485 0.735) (layer "F.SilkS") (width 0.12) (tstamp f82d3db0-af95-46da-8600-3e466203e66b))
+    (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp 045c9afc-6a37-4d6b-a387-58fb20432948))
+    (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer "F.CrtYd") (width 0.05) (tstamp 40d550e2-c421-47a8-92b7-d4d4bf9c6ca8))
+    (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 6a2fec5f-cd4d-4053-b93e-e654d3c3e012))
+    (fp_line (start -1.48 0.73) (end -1.48 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp cf7206e7-6eb1-420d-b5b6-0fc15965cb71))
+    (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 0d7cf69a-0d3b-4a4a-a530-4c6de912b042))
+    (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp 4b92ed64-5b66-4fc2-8087-a2336f71e9f3))
+    (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 607b1874-952e-481b-90f0-8b4370def9a0))
+    (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp c9a9f8a9-d6ac-4884-a760-1bb227267651))
+    (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp fe6bae00-d5b4-415e-a67f-5dcbad7b3b7e))
+    (pad "1" smd roundrect locked (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 14 "Net-(D2-Pad2)") (pinfunction "K") (pintype "passive") (tstamp a83c32da-e32c-49c6-9a66-21724b947ce2))
+    (pad "2" smd roundrect locked (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 81 "Net-(D5-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 3f5e42ee-9dc8-42fe-aee5-232fefe46172))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
+<<<<<<< Updated upstream
+    (tedit 5F68FEEE) (tstamp be4e14fb-1c37-474b-a80b-6043d77daab4)
+    (at 128.27 118.237 90)
+=======
+    (tedit 5F68FEEE) (tstamp c7ebedd8-0cc7-4b06-a80f-af173b32c277)
+    (at 130.7 108.5088 180)
+>>>>>>> Stashed changes
+    (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600e942e")
+    (attr smd)
+<<<<<<< Updated upstream
+    (fp_text reference "C4" (at 1.287 -0.03 180) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 5e369990-b2e6-4f70-b298-fe8b20c1cb0b)
+    )
+    (fp_text value "1n" (at 0 1.16 90) (layer "F.Fab")
+=======
+    (fp_text reference "C6" (at 0.08 1.1088) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
+      (tstamp 97e3719a-b310-4e0e-b90e-1118a9aa8504)
+    )
+    (fp_text value "100n" (at 0 1.16) (layer "F.Fab")
+>>>>>>> Stashed changes
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d34321e5-2098-4f9c-9739-234e5b802005)
+    )
+<<<<<<< Updated upstream
+    (fp_text user "${REFERENCE}" (at 0 0.6 90) (layer "F.Fab")
+=======
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+>>>>>>> Stashed changes
+      (effects (font (size 0.25 0.25) (thickness 0.04)))
+      (tstamp 0ba9867a-cb12-4c59-9e23-504976f9036b)
+    )
+<<<<<<< Updated upstream
+    (fp_line (start -0.107836 -0.36) (end 0.107836 -0.36) (layer "F.SilkS") (width 0.12) (tstamp d0b726ed-ff9f-41f7-9ec8-cd18ba7bbb36))
+    (fp_line (start -0.107836 0.36) (end 0.107836 0.36) (layer "F.SilkS") (width 0.12) (tstamp f9f25123-c182-4325-afae-c6fff19d453b))
+    (fp_line (start 0.91 0.46) (end -0.91 0.46) (layer "F.CrtYd") (width 0.05) (tstamp 293d0023-00e4-470c-b09b-c0ab1be83c6e))
+    (fp_line (start 0.91 -0.46) (end 0.91 0.46) (layer "F.CrtYd") (width 0.05) (tstamp 8f1fb60c-f4a3-4c72-8200-5c2f0e5582b5))
+    (fp_line (start -0.91 0.46) (end -0.91 -0.46) (layer "F.CrtYd") (width 0.05) (tstamp a7c29ab7-7d2c-4483-b670-dfc118e8c2f4))
+    (fp_line (start -0.91 -0.46) (end 0.91 -0.46) (layer "F.CrtYd") (width 0.05) (tstamp c36efa61-199c-4714-af0a-3755ef658689))
+    (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 1c826292-13c8-42f7-a496-b08125ca2d5a))
+    (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 91d50718-fdb8-4eb4-92e7-6dc29ad22675))
+    (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 920480b3-f8c7-42ad-8a74-1efb9db80fcc))
+    (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp b8873519-40e9-43ee-8562-e0a2f9cd6e34))
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 46 "/Power Monitor/ADC6") (pintype "passive") (tstamp fb14c896-2f60-4d5a-8134-ac4f26e595fc))
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 3 "GND") (pintype "passive") (tstamp 1a9b4bc5-6074-4f77-83bb-244730f2d031))
+=======
+    (fp_line (start -0.107836 -0.36) (end 0.107836 -0.36) (layer "F.SilkS") (width 0.12) (tstamp 359c96ab-ca7e-41d6-a54c-d3a870eeff5b))
+    (fp_line (start -0.107836 0.36) (end 0.107836 0.36) (layer "F.SilkS") (width 0.12) (tstamp 9df79f1b-4802-4039-b0f4-701cb842b913))
+    (fp_line (start -0.91 -0.46) (end 0.91 -0.46) (layer "F.CrtYd") (width 0.05) (tstamp 1c8a1304-3009-4081-a175-03f74a6d0aed))
+    (fp_line (start -0.91 0.46) (end -0.91 -0.46) (layer "F.CrtYd") (width 0.05) (tstamp 3d8b2aea-d2cb-40a9-a38c-12a011a27e9e))
+    (fp_line (start 0.91 -0.46) (end 0.91 0.46) (layer "F.CrtYd") (width 0.05) (tstamp 9d2c6a13-ca1c-4936-9694-c8d309a9daea))
+    (fp_line (start 0.91 0.46) (end -0.91 0.46) (layer "F.CrtYd") (width 0.05) (tstamp e6457fc1-efc0-4da3-97d4-9e5fd28a5b56))
+    (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 1c82b1d6-ba58-4df4-982c-ac82210472fc))
+    (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 23353465-98cd-4505-95e5-a4e31779ca36))
+    (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 6ccf955a-f9c7-4169-8362-42710505c727))
+    (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp ac83b4f0-99e0-4e70-a865-d80d0e2a0f44))
+    (pad "1" smd roundrect (at -0.48 0 180) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 2 "+5V") (pintype "passive") (tstamp bd5e2513-96ce-4e17-9ea5-ffd153523f78))
+    (pad "2" smd roundrect (at 0.48 0 180) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 3 "GND") (pintype "passive") (tstamp 609088b8-50ab-472e-889b-df2fac4a423b))
+>>>>>>> Stashed changes
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+<<<<<<< Updated upstream
+  (footprint "Resistor_SMD:R_0402_1005Metric" locked (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp c073f047-d542-45b2-82bd-8f41c3fde790)
+    (at 141.224 122.128)
+    (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor")
+    (property "Sheetfile" "switching.kicad_sch")
+    (property "Sheetname" "Relays")
+    (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/7cd63105-13f9-4c3a-aabb-b92c656059ef")
+    (attr smd)
+    (fp_text reference "R17" (at 2.413 0.046) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 70ef1efb-56d7-408e-b1f6-e4b99e3ba0c9)
+    )
+    (fp_text value "1k" (at 0 1.17) (layer "F.Fab")
+=======
+  (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
+    (tedit 5F68FEEE) (tstamp ca393539-f7a2-4821-8342-06a8b51dc18a)
+    (at 125.222 127.1016)
+    (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/00000000-0000-0000-0000-0000600c8c7d")
+    (attr smd)
+    (fp_text reference "C11" (at -1.872 0.0084) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp e0de8e2c-6e53-4761-843f-24dadb8bb80d)
+    )
+    (fp_text value "1u" (at 0 1.16) (layer "F.Fab")
+>>>>>>> Stashed changes
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9dbd7e50-40f1-443e-9129-cca03a5cad99)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+<<<<<<< Updated upstream
+      (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp deee5bbd-9b83-46c7-9dbf-34ce5eb1f1ce)
+    )
+    (fp_line (start -0.153641 -0.38) (end 0.153641 -0.38) (layer "F.SilkS") (width 0.12) (tstamp 1fd6305c-90ab-4c45-8545-e0e8d8bdc4e0))
+    (fp_line (start -0.153641 0.38) (end 0.153641 0.38) (layer "F.SilkS") (width 0.12) (tstamp 996705a3-33bf-4249-8a7d-be39c63a44e3))
+    (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 30ca3dcc-d5e3-420b-9226-1f8972fcaa47))
+    (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer "F.CrtYd") (width 0.05) (tstamp 4ef7a528-ec41-457e-859a-ae700c8f066a))
+    (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp 735ed935-be6f-46c1-a3ff-4c0e36fac0a8))
+    (fp_line (start -0.93 0.47) (end -0.93 -0.47) (layer "F.CrtYd") (width 0.05) (tstamp e009ffee-1373-47ee-bf46-03c4fe22dbcb))
+    (fp_line (start -0.525 0.27) (end -0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 049040c3-1eb9-4760-8bc7-1d15aae8e4eb))
+    (fp_line (start -0.525 -0.27) (end 0.525 -0.27) (layer "F.Fab") (width 0.1) (tstamp 06962d90-c050-412d-bd83-aa0c6f3731ab))
+    (fp_line (start 0.525 -0.27) (end 0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp 1f3121a5-1d63-478b-a5f9-b82dc15d6492))
+    (fp_line (start 0.525 0.27) (end -0.525 0.27) (layer "F.Fab") (width 0.1) (tstamp e8b63a95-6805-4b38-a3a6-6861aff82766))
+    (pad "1" smd roundrect locked (at -0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 81 "Net-(D5-Pad2)") (pintype "passive") (tstamp 1be64e19-95bf-49ca-a81a-4119dbd4f4b8))
+    (pad "2" smd roundrect locked (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 2 "+5V") (pintype "passive") (tstamp cd720d25-c94d-4bd1-8add-b60337b71601))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+=======
+      (effects (font (size 0.25 0.25) (thickness 0.04)))
+      (tstamp 80996c18-6ea1-40b3-a594-4fb4dda95033)
+>>>>>>> Stashed changes
     )
   )
 
@@ -2554,6 +3208,8 @@
       (net 1 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 713e0777-58b2-4487-baca-60d0ebed27c3))
   )
 
+<<<<<<< HEAD
+=======
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp d9d64167-16b1-4176-a737-124a48758f1a)
     (at 120.8 124.575)
@@ -2603,6 +3259,7 @@
     )
   )
 
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
   (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5" (layer "F.Cu")
     (tedit 5A02FF57) (tstamp dc801490-ca05-4c31-9d8b-cafe9cadd670)
     (at 123.4 112.3 90)
@@ -3121,15 +3778,23 @@
     (pad "" smd rect (at 1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 7980dbc1-2082-4902-b7be-862d39ff8909))
     (pad "" smd rect (at -1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp a202bddf-8236-449a-ad5d-b7ea313c4ff2))
     (pad "1" smd custom (at -2 0 270) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+<<<<<<< Updated upstream
       (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+<<<<<<< HEAD
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+      (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp ec41157d-69b9-41ea-a138-83bfdd3b13ed))
     (pad "2" smd custom (at 0 0 270) (size 0.3 0.3) (layers "B.Cu")
@@ -3138,11 +3803,19 @@
       (primitives
         (gr_poly (pts
             (xy 0.7 0)
+<<<<<<< Updated upstream
             (xy 1.2 -0.75)
             (xy -1.2 -0.75)
             (xy -0.7 0)
             (xy -1.2 0.75)
             (xy 1.2 0.75)
+=======
+            (xy 1.2 0.75)
+            (xy -1.2 0.75)
+            (xy -0.7 0)
+            (xy -1.2 -0.75)
+            (xy 1.2 -0.75)
+>>>>>>> Stashed changes
           ) (width 0) (fill yes))
       ) (tstamp b5d25e98-6035-4947-ae03-24768005ab8a))
     (pad "3" smd custom (at 2 0 90) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
@@ -3151,10 +3824,17 @@
       (primitives
         (gr_poly (pts
             (xy 1 0)
+<<<<<<< Updated upstream
             (xy 0.5 -0.75)
             (xy -0.5 -0.75)
             (xy -0.5 0.75)
             (xy 0.5 0.75)
+=======
+            (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
+>>>>>>> Stashed changes
           ) (width 0) (fill yes))
       ) (tstamp 8df8b4cc-2ad1-47cd-8fe8-230f79efe02c))
   )
@@ -3169,6 +3849,7 @@
     (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/3b600e6a-acbe-4f8c-ad56-d17f4e961218")
     (attr exclude_from_pos_files)
     (fp_text reference "TP4" (at 0 1.648) (layer "B.SilkS")
+<<<<<<< Updated upstream
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 93ffb6a7-53c5-4e36-b310-31f1ef962cd7)
     )
@@ -3178,6 +3859,17 @@
     )
     (fp_text user "${REFERENCE}" (at 0 1.65) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+=======
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 93ffb6a7-53c5-4e36-b310-31f1ef962cd7)
+    )
+    (fp_text value "TestPoint" (at 0 -1.75) (layer "B.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 834c2e3a-55e9-4bd0-80a8-bf1e04e26eac)
+    )
+    (fp_text user "${REFERENCE}" (at 0 1.65) (layer "B.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+>>>>>>> Stashed changes
       (tstamp 7d256d89-1310-41f4-87ba-987b78168d42)
     )
     (fp_circle (center 0 0) (end 0 -0.95) (layer "B.SilkS") (width 0.12) (fill none) (tstamp 15ea20de-3cb5-4a56-9dc5-fb0a337e167a))
@@ -3228,10 +3920,10 @@
         (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
         (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
         (gr_poly (pts
-            (xy 0.5 -0.75)
-            (xy 0 -0.75)
-            (xy 0 0.75)
             (xy 0.5 0.75)
+            (xy 0 0.75)
+            (xy 0 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 86b50d98-5d98-440f-b8c0-f11ef55887f6))
     (pad "2" smd custom (at 0.65 0) (size 1 0.5) (layers "B.Cu" "B.Mask")
@@ -3241,10 +3933,10 @@
         (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
         (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
         (gr_poly (pts
-            (xy 0 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 2f8c285e-7b29-49ed-b600-a369881f8cf4))
   )
@@ -3280,15 +3972,23 @@
     (pad "" smd rect (at -1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 047d9727-5d13-46fe-add8-bcda68a15d49))
     (pad "" smd rect (at 1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 8166c052-776a-439a-a5b9-58b2ee9a5d2a))
     (pad "1" smd custom (at -2 0 270) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+<<<<<<< Updated upstream
       (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+<<<<<<< HEAD
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+      (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 3bf64281-3e03-4473-8302-ace52f130739))
     (pad "2" smd custom (at 0 0 270) (size 0.3 0.3) (layers "B.Cu")
@@ -3297,11 +3997,11 @@
       (primitives
         (gr_poly (pts
             (xy 0.7 0)
-            (xy 1.2 -0.75)
-            (xy -1.2 -0.75)
-            (xy -0.7 0)
-            (xy -1.2 0.75)
             (xy 1.2 0.75)
+            (xy -1.2 0.75)
+            (xy -0.7 0)
+            (xy -1.2 -0.75)
+            (xy 1.2 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 9605a3c8-2e29-4de0-9716-39eaf3eb3122))
     (pad "3" smd custom (at 2 0 90) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
@@ -3310,10 +4010,10 @@
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 89507231-bd9b-4f6f-b8a8-d0254987e6a1))
   )
@@ -3497,6 +4197,81 @@
     )
   )
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" (layer "B.Cu")
+    (tedit 5A64803D) (tstamp bec93a40-ad33-4fa0-92fb-4ca10bab1930)
+    (at 125.4 125.05 90)
+    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+    (tags "solder jumper open")
+    (property "Sheetfile" "power_monitor.kicad_sch")
+    (property "Sheetname" "Power Monitor")
+    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/5e0ee9bc-e95e-43cb-8bbe-4cc91e620905")
+    (attr exclude_from_pos_files)
+    (fp_text reference "JP7" (at 0.725 1.775 90) (layer "B.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp bf4a0d0e-60e7-49da-a9f5-80a71bd208b4)
+    )
+    (fp_text value "Jumper_3_Open" (at 0.725 -1.925 90) (layer "B.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 95a71d93-aef8-4f84-b170-b48326c73e8f)
+    )
+    (fp_line (start -1.1 -1.5) (end -1.4 -1.2) (layer "B.SilkS") (width 0.12) (tstamp 1dce5647-a134-48e7-a9e5-ee9e0835d32d))
+    (fp_line (start -1.4 -1.2) (end -1.7 -1.5) (layer "B.SilkS") (width 0.12) (tstamp 68480489-9f4e-442d-8670-a89d6b001407))
+    (fp_line (start -2.75 -0.95) (end -2.75 1) (layer "B.SilkS") (width 0.12) (tstamp 80f12ad1-5790-4380-aed7-1f52e1bc1bb0))
+    (fp_line (start 2.75 -0.95) (end -2.75 -0.95) (layer "B.SilkS") (width 0.12) (tstamp 9b948a95-f332-4825-87ec-33d990f6f31c))
+    (fp_line (start -1.7 -1.5) (end -1.1 -1.5) (layer "B.SilkS") (width 0.12) (tstamp aeb823b0-b0fc-450a-bf08-7a77a629a7c4))
+    (fp_line (start -2.75 1) (end 2.75 1) (layer "B.SilkS") (width 0.12) (tstamp d5bebcb2-5427-41be-82cc-5e6f9a078f45))
+    (fp_line (start 2.75 1) (end 2.75 -0.95) (layer "B.SilkS") (width 0.12) (tstamp fb0af06c-da28-4879-b0e7-fbfb6d5ff7bb))
+    (fp_line (start 3 -1.25) (end 3 1.27) (layer "B.CrtYd") (width 0.05) (tstamp 41db6b1f-70f6-4f0f-8379-060be2835b3b))
+    (fp_line (start -2.98 1.27) (end -2.98 -1.25) (layer "B.CrtYd") (width 0.05) (tstamp 4837c6f4-71dc-4d64-bb72-7153cbae89b0))
+    (fp_line (start 3 -1.25) (end -2.98 -1.25) (layer "B.CrtYd") (width 0.05) (tstamp 88f84aee-48ca-49a2-8c37-f5c5ee5ca717))
+    (fp_line (start -2.98 1.27) (end 3 1.27) (layer "B.CrtYd") (width 0.05) (tstamp d2e54877-8e85-4a8f-ba0a-db5c675b56f3))
+    (pad "" smd rect locked (at -1.2 0 90) (size 1.5 1.5) (layers "B.Mask") (tstamp 022aa016-7151-4c6a-b344-8e53ef64f4c7))
+    (pad "" smd rect locked (at 1.2 0 90) (size 1.5 1.5) (layers "B.Mask") (tstamp eb3b7877-3340-48ad-9497-86acaa9db2b8))
+    (pad "1" smd custom locked (at -2 0 90) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+      (net 2 "+5V") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 1 0)
+            (xy 0.5 -0.75)
+            (xy -0.5 -0.75)
+            (xy -0.5 0.75)
+            (xy 0.5 0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp a05691e9-972a-4e1d-af7c-9b62fd0c15db))
+    (pad "2" smd custom locked (at 0 0 90) (size 0.3 0.3) (layers "B.Cu")
+      (net 35 "Net-(J9-Pad1)") (pinfunction "C") (pintype "input") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 0.7 0)
+            (xy 1.2 -0.75)
+            (xy -1.2 -0.75)
+            (xy -0.7 0)
+            (xy -1.2 0.75)
+            (xy 1.2 0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp a9a59887-77f4-4a2b-8747-034916bf0927))
+    (pad "3" smd custom locked (at 2 0 270) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 1 0)
+            (xy 0.5 -0.75)
+            (xy -0.5 -0.75)
+            (xy -0.5 0.75)
+            (xy 0.5 0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp 349659bf-400b-4bd3-90aa-6f10e5cd62ae))
+  )
+
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" (layer "B.Cu")
     (tedit 5A64803D) (tstamp cb883012-ee0f-46ea-940c-6e32ee21d220)
     (at 136.966 108.839 -90)
@@ -3528,15 +4303,23 @@
     (pad "" smd rect (at -1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 0fee047c-e656-4372-8778-5abb3e8107c7))
     (pad "" smd rect (at 1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp c70ed1c2-9864-4ad1-9ed9-0663e3e82ddb))
     (pad "1" smd custom (at -2 0 270) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+<<<<<<< Updated upstream
       (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+<<<<<<< HEAD
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+      (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp ab63062d-968a-471b-adba-cd3fca0df781))
     (pad "2" smd custom (at 0 0 270) (size 0.3 0.3) (layers "B.Cu")
@@ -3545,11 +4328,11 @@
       (primitives
         (gr_poly (pts
             (xy 0.7 0)
-            (xy 1.2 -0.75)
-            (xy -1.2 -0.75)
-            (xy -0.7 0)
-            (xy -1.2 0.75)
             (xy 1.2 0.75)
+            (xy -1.2 0.75)
+            (xy -0.7 0)
+            (xy -1.2 -0.75)
+            (xy 1.2 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp b332e1f8-8d17-46e8-b334-93eeb23df024))
     (pad "3" smd custom (at 2 0 90) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
@@ -3558,10 +4341,10 @@
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 6dd53690-792f-4303-8abc-8ad15385a8fa))
   )
@@ -3624,15 +4407,23 @@
     (pad "" smd rect (at 1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 2b89a2a7-ec4c-48e1-b912-3c4c94c99aaf))
     (pad "" smd rect (at -1.2 0 270) (size 1.5 1.5) (layers "B.Mask") (tstamp 95b54896-ee5b-48fd-936c-c96529c7c0f3))
     (pad "1" smd custom (at -2 0 270) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
+<<<<<<< Updated upstream
       (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+<<<<<<< HEAD
+      (net 80 "/Power Monitor/Batt_Sensed") (pinfunction "A") (pintype "passive") (zone_connect 2)
+=======
+      (net 27 "+BATT") (pinfunction "A") (pintype "passive") (zone_connect 2)
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp fca774de-5526-40a3-9ad0-a722c2e76f0d))
     (pad "2" smd custom (at 0 0 270) (size 0.3 0.3) (layers "B.Cu")
@@ -3641,11 +4432,11 @@
       (primitives
         (gr_poly (pts
             (xy 0.7 0)
-            (xy 1.2 -0.75)
-            (xy -1.2 -0.75)
-            (xy -0.7 0)
-            (xy -1.2 0.75)
             (xy 1.2 0.75)
+            (xy -1.2 0.75)
+            (xy -0.7 0)
+            (xy -1.2 -0.75)
+            (xy 1.2 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp cd0c662d-57c2-41dc-9ae1-6b99236dc2b0))
     (pad "3" smd custom (at 2 0 90) (size 0.3 0.3) (layers "B.Cu" "B.Mask")
@@ -3654,10 +4445,10 @@
       (primitives
         (gr_poly (pts
             (xy 1 0)
-            (xy 0.5 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 78a44f41-0fe4-403a-a190-f2cd0643e365))
   )
@@ -3698,10 +4489,10 @@
         (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
         (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
         (gr_poly (pts
-            (xy 0.5 -0.75)
-            (xy 0 -0.75)
-            (xy 0 0.75)
             (xy 0.5 0.75)
+            (xy 0 0.75)
+            (xy 0 -0.75)
+            (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 68070c16-e51b-4411-b01d-a27230c981c1))
     (pad "2" smd custom (at 0.65 0 270) (size 1 0.5) (layers "B.Cu" "B.Mask")
@@ -3711,10 +4502,10 @@
         (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
         (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
         (gr_poly (pts
-            (xy 0 -0.75)
-            (xy -0.5 -0.75)
-            (xy -0.5 0.75)
             (xy 0 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 675a46ee-4c7d-4512-b3f7-84bf7742ace1))
   )
@@ -3846,6 +4637,13 @@
   (segment (start 126.3548 119.9364) (end 126.3548 118.7576) (width 0.3) (layer "F.Cu") (net 1) (tstamp c28c69b8-45cd-46eb-a388-3e9be90e3969))
   (segment (start 167.935 112.817) (end 167.557 112.439) (width 0.3) (layer "F.Cu") (net 1) (tstamp c2b3dbb0-6c21-432e-9bb1-1bd5998d8ccc))
   (segment (start 171.71 114.554) (end 171.97 114.294) (width 0.3) (layer "F.Cu") (net 1) (tstamp ced596bd-4a89-4187-885e-4353d51dc764))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 146.25 102.406605) (end 146.282 102.374605) (width 0.8) (layer "F.Cu") (net 2) (tstamp 09b60df5-547c-4590-9d58-dd4beddb9139))
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 124.05 111.35) (end 123.005 112.395) (width 0.3) (layer "F.Cu") (net 2) (tstamp 15993da5-5150-4eba-8570-864aa11398c9))
   (segment (start 131.18 108.5088) (end 131.18 109.7502) (width 0.3) (layer "F.Cu") (net 2) (tstamp 1ba08816-4884-4a02-ac02-770bcc7a7d1d))
   (segment (start 155.07 110.519) (end 163.182 102.407) (width 0.8) (layer "F.Cu") (net 2) (tstamp 3729ca0d-32ba-49a2-92df-6a81ba86485c))
@@ -3853,19 +4651,48 @@
   (segment (start 120.2945 112.395) (end 119.634 113.0555) (width 0.3) (layer "F.Cu") (net 2) (tstamp 49181953-7b30-46ba-ad7d-599a397e47cc))
   (segment (start 141.734 120.907) (end 141.223 120.396) (width 0.25) (layer "F.Cu") (net 2) (tstamp 4a732cf5-133c-481f-b0d8-1161f50c1c1c))
   (segment (start 131.18 109.7502) (end 131.126 109.8042) (width 0.3) (layer "F.Cu") (net 2) (tstamp 70e06b3c-3474-48c7-bc22-9d3e51cb1b4e))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 146.25 109.95) (end 146.25 102.406605) (width 0.8) (layer "F.Cu") (net 2) (tstamp 8241c69a-a57d-42c6-b8da-9a2882853d92))
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 174.131 106.352) (end 174.131 107.85) (width 0.3) (layer "F.Cu") (net 2) (tstamp 8976daf0-463d-4c93-b0e8-b42d769640c8))
   (segment (start 123.005 112.395) (end 120.2945 112.395) (width 0.3) (layer "F.Cu") (net 2) (tstamp 94998df2-90cf-45a4-b544-d064e92361c2))
   (segment (start 158.625 122.128) (end 158.625 120.907) (width 0.25) (layer "F.Cu") (net 2) (tstamp 9fcf724b-a7eb-434f-8c80-7049e89a1391))
   (segment (start 155.07 113.47) (end 155.07 110.519) (width 0.8) (layer "F.Cu") (net 2) (tstamp ae3c60d8-4314-4076-b590-60e8245e1898))
+<<<<<<< Updated upstream
   (segment (start 138.303 110.353605) (end 146.282 102.374605) (width 0.8) (layer "F.Cu") (net 2) (tstamp bba650aa-b84f-4b89-aa81-8a2d6639dd26))
   (segment (start 124.742 127.1016) (end 125.0548 126.7888) (width 0.3) (layer "F.Cu") (net 2) (tstamp be838c73-0136-49cd-8588-0eae62bfdb50))
   (segment (start 138.303 113.03) (end 138.303 110.353605) (width 0.8) (layer "F.Cu") (net 2) (tstamp bf3962a3-9811-4486-9fd5-3afcc4333d4b))
+=======
+<<<<<<< HEAD
+  (segment (start 124.742 127.1016) (end 125.0548 126.7888) (width 0.3) (layer "F.Cu") (net 2) (tstamp be838c73-0136-49cd-8588-0eae62bfdb50))
+=======
+  (segment (start 138.303 110.353605) (end 146.282 102.374605) (width 0.8) (layer "F.Cu") (net 2) (tstamp bba650aa-b84f-4b89-aa81-8a2d6639dd26))
+  (segment (start 124.742 127.1016) (end 125.0548 126.7888) (width 0.3) (layer "F.Cu") (net 2) (tstamp be838c73-0136-49cd-8588-0eae62bfdb50))
+  (segment (start 138.303 113.03) (end 138.303 110.353605) (width 0.8) (layer "F.Cu") (net 2) (tstamp bf3962a3-9811-4486-9fd5-3afcc4333d4b))
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 158.625 120.907) (end 158.114 120.396) (width 0.25) (layer "F.Cu") (net 2) (tstamp e18136e5-6119-41d8-9371-ca70884378d0))
   (segment (start 124.742 128.016) (end 124.742 127.1016) (width 0.3) (layer "F.Cu") (net 2) (tstamp e6df7e81-9970-48bf-9428-701988c505f1))
   (segment (start 125.0548 126.7888) (end 125.0548 125.7364) (width 0.3) (layer "F.Cu") (net 2) (tstamp f8ddae86-5192-4973-abe9-fa6936e95a52))
   (segment (start 174.092 107.889) (end 174.131 107.85) (width 0.3) (layer "F.Cu") (net 2) (tstamp fe32f543-9527-4c20-8150-c18a3c5caa97))
   (segment (start 172.4225 107.889) (end 174.092 107.889) (width 0.3) (layer "F.Cu") (net 2) (tstamp fe84c090-58ac-48cf-b16d-e6766623a787))
   (via (at 155.07 113.47) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp 2225a646-7c06-453a-80f5-e9374f6888f9))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (via (at 146.25 109.95) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp b06af38c-3256-4bce-8cf3-fe3fdeca6068))
+  (segment (start 134.366 110.839) (end 136.966 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp 30ba9efe-69a5-4b2e-ac4e-b1e9557a860f))
+  (segment (start 146.25 109.95) (end 145.361 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp 30ef7cca-cdee-4075-bfbb-8859df3d6aa3))
+  (segment (start 155.07 113.47) (end 153.984 112.384) (width 0.8) (layer "B.Cu") (net 2) (tstamp 66ff862f-10b8-46f9-bc58-5c093bd05e6a))
+  (segment (start 151.384 110.839) (end 153.984 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp b0f8b9a4-7a02-4363-ae40-d55e79251775))
+  (segment (start 153.984 112.384) (end 153.984 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp d4bdcf70-30dc-4cc3-a49a-3c6a8b02ba5c))
+  (segment (start 145.361 110.839) (end 136.966 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp f0738706-c796-477a-8098-faf24ebd9ee8))
+=======
+>>>>>>> Stashed changes
   (via (at 138.303 113.03) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp b06af38c-3256-4bce-8cf3-fe3fdeca6068))
   (segment (start 134.366 110.839) (end 136.966 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp 30ba9efe-69a5-4b2e-ac4e-b1e9557a860f))
   (segment (start 129.6012 127.7112) (end 122.7438 127.7112) (width 0.4) (layer "B.Cu") (net 2) (tstamp 5cfed0a5-e51b-4f8e-aff6-94f34f086873))
@@ -3875,6 +4702,10 @@
   (segment (start 151.384 110.839) (end 153.984 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp b0f8b9a4-7a02-4363-ae40-d55e79251775))
   (segment (start 153.984 112.384) (end 153.984 110.839) (width 0.8) (layer "B.Cu") (net 2) (tstamp d4bdcf70-30dc-4cc3-a49a-3c6a8b02ba5c))
   (segment (start 122.7438 127.7112) (end 120.8 129.655) (width 0.4) (layer "B.Cu") (net 2) (tstamp f467f39d-0937-42f4-8eba-cb03851dbd00))
+<<<<<<< Updated upstream
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 130.175 125.0214) (end 130.2004 125.0468) (width 0.3) (layer "F.Cu") (net 3) (tstamp 09007612-b54f-4ed5-8789-ff29a3adcb40))
   (segment (start 128.27 117.757) (end 128.0362 117.757) (width 0.3) (layer "F.Cu") (net 3) (tstamp 0d9313ee-0069-4b4a-8de9-029cfda18089))
   (segment (start 131.28 114.9) (end 131.28 113.7682) (width 0.25) (layer "F.Cu") (net 3) (tstamp 0f0617bc-06f3-4ccf-b60d-0d949ebd7bb7))
@@ -3993,7 +4824,14 @@
   (segment (start 176.276 103.998) (end 179.324 100.95) (width 0.4) (layer "F.Cu") (net 26) (tstamp feb98323-3b6c-426a-93d1-df3901383fee))
   (segment (start 126.15 108.11) (end 126.15 111.0482) (width 0.8) (layer "F.Cu") (net 27) (tstamp 481e8352-5ea3-4bfe-a1a6-1ef6fb85a95c))
   (segment (start 126.25 108.21) (end 126.15 108.11) (width 0.4) (layer "F.Cu") (net 27) (tstamp ed1312f3-ad44-40fc-8bf4-4c163777c571))
+<<<<<<< Updated upstream
   (segment (start 127.3 108.21) (end 126.25 108.21) (width 0.4) (layer "F.Cu") (net 27) (tstamp f18d83df-9924-4ffc-b1f4-95080d5b7ba1))
+=======
+<<<<<<< HEAD
+=======
+  (segment (start 127.3 108.21) (end 126.25 108.21) (width 0.4) (layer "F.Cu") (net 27) (tstamp f18d83df-9924-4ffc-b1f4-95080d5b7ba1))
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 126.15 103.48) (end 126.15 108.11) (width 0.8) (layer "F.Cu") (net 27) (tstamp f84a5507-8f33-4bc4-9eba-8071380ce064))
   (segment (start 149.225 112.65) (end 151.182 114.607) (width 0.8) (layer "B.Cu") (net 28) (tstamp 8dda572c-c5e6-4739-87d0-fdc8db1da8fb))
   (segment (start 151.384 108.839) (end 153.984 108.839) (width 0.8) (layer "B.Cu") (net 28) (tstamp 90282fff-45dd-4c6d-b3d2-561d96280418))
@@ -4008,6 +4846,19 @@
   (segment (start 163.232 114.657) (end 160.726 117.163) (width 0.8) (layer "B.Cu") (net 30) (tstamp 6a317a67-d0fe-4e9e-b492-92084994d6db))
   (segment (start 160.726 117.163) (end 160.726 127.245) (width 0.8) (layer "B.Cu") (net 30) (tstamp a344f6d9-6a51-41ce-83f1-71e403a83b8a))
   (segment (start 136.966 108.839) (end 134.366 108.839) (width 0.8) (layer "B.Cu") (net 31) (tstamp 14565bb5-f422-442f-abfe-db740be73e22))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 134.282 114.574605) (end 134.282 121.982) (width 0.8) (layer "B.Cu") (net 31) (tstamp 89c12b9d-abe8-4221-bfad-d0b894e9f384))
+  (segment (start 136.8044 124.5044) (end 136.8044 127.3048) (width 0.8) (layer "B.Cu") (net 31) (tstamp 8d58d365-ca94-43db-895d-baaf1e8406cb))
+  (segment (start 134.282 121.982) (end 136.8044 124.5044) (width 0.8) (layer "B.Cu") (net 31) (tstamp b868d386-d2b0-4cda-a7b4-d89657ed325d))
+  (segment (start 140.332 100.424605) (end 140.332 118.068) (width 0.8) (layer "F.Cu") (net 32) (tstamp 3e4d3487-52b7-434a-9c8c-1fe267d86fbc))
+  (segment (start 140.3044 100.452205) (end 140.332 100.424605) (width 0.8) (layer "B.Cu") (net 32) (tstamp 862f8f05-d614-4656-95bc-374957c48716))
+  (segment (start 143.8044 127.3048) (end 143.8044 121.3456) (width 0.8) (layer "B.Cu") (net 33) (tstamp 016e536e-495d-497f-905c-384530c57735))
+  (segment (start 146.332 118.818) (end 146.332 114.624605) (width 0.8) (layer "B.Cu") (net 33) (tstamp 83988c08-991a-44b3-8dda-ad560865c7dd))
+  (segment (start 143.8044 121.3456) (end 146.332 118.818) (width 0.8) (layer "B.Cu") (net 33) (tstamp d4831906-6f95-4493-8146-325d519447d6))
+=======
+>>>>>>> Stashed changes
   (segment (start 136.8044 117.097005) (end 136.8044 127.3048) (width 0.8) (layer "B.Cu") (net 31) (tstamp 22782c90-20f0-41c6-8c58-396aae1f2cb8))
   (segment (start 134.282 114.574605) (end 136.8044 117.097005) (width 0.8) (layer "B.Cu") (net 31) (tstamp d99d83b0-294b-4fdc-98e3-543059984943))
   (segment (start 140.3044 100.452205) (end 140.332 100.424605) (width 0.8) (layer "B.Cu") (net 32) (tstamp 862f8f05-d614-4656-95bc-374957c48716))
@@ -4016,6 +4867,10 @@
   (segment (start 143.8044 117.152205) (end 146.332 114.624605) (width 0.8) (layer "B.Cu") (net 33) (tstamp c9cf9883-da45-4d7b-ae99-e5f0c381da9c))
   (segment (start 124.285 130.6) (end 120.8 127.115) (width 0.4) (layer "F.Cu") (net 35) (tstamp 1c618ade-d59f-4e13-8dbb-df20762adf54))
   (segment (start 124.975 130.6) (end 124.285 130.6) (width 0.4) (layer "F.Cu") (net 35) (tstamp 9b1d4918-f951-4bfe-92b9-db8d66f7ff8a))
+<<<<<<< Updated upstream
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 126.619 129.704) (end 127.515 130.6) (width 0.3) (layer "F.Cu") (net 36) (tstamp 82df321e-5130-40d4-a7cf-85456ee21491))
   (segment (start 126.619 128.145) (end 126.619 129.704) (width 0.3) (layer "F.Cu") (net 36) (tstamp b0b05d00-3dbe-4208-bca1-8d0d259dbf33))
   (segment (start 133.48 128.18) (end 133.5044 128.1556) (width 0.4) (layer "F.Cu") (net 37) (tstamp d62bad6b-b9c8-4b6f-be87-69f259afefd0))
@@ -4023,6 +4878,11 @@
   (via (at 133.48 128.18) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 37) (tstamp 331e1937-ee6a-4920-b52f-a8a59e67f9c0))
   (segment (start 131.37 128.18) (end 130.9012 127.7112) (width 0.4) (layer "B.Cu") (net 37) (tstamp 11fd4668-db7b-4d48-9ec7-13ddb826bd3b))
   (segment (start 133.48 128.18) (end 131.37 128.18) (width 0.4) (layer "B.Cu") (net 37) (tstamp 733d416c-e12f-4ca7-a327-5a837e17c477))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   (segment (start 128.32 107.12) (end 128.32 108.21) (width 0.25) (layer "F.Cu") (net 38) (tstamp 3a317c4f-d113-466f-a8c9-d16a418dd97b))
   (segment (start 127.775489 115.114511) (end 126.79 116.1) (width 0.25) (layer "F.Cu") (net 38) (tstamp 53669030-4e2c-4b83-9c58-8c76193601cd))
   (segment (start 127.775489 108.754511) (end 127.775489 115.114511) (width 0.25) (layer "F.Cu") (net 38) (tstamp 5936c171-9e3d-46cd-bcf1-a60878f7f068))
@@ -4032,12 +4892,32 @@
   (via (at 128.12 106.92) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 38) (tstamp f9a07abf-9264-4dcf-b69e-edecce3ea9a3))
   (segment (start 128.1 106.94) (end 128.1 109.7) (width 0.3) (layer "B.Cu") (net 38) (tstamp 4f5a9d18-5d63-4fd4-8c3c-ddabfb17c0a1))
   (segment (start 128.12 106.92) (end 128.1 106.94) (width 0.3) (layer "B.Cu") (net 38) (tstamp 55bcc133-149e-4f0f-9df5-58af3b292408))
+<<<<<<< Updated upstream
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 172.9255 118.298) (end 172.525 118.298) (width 0.3) (layer "F.Cu") (net 39) (tstamp 13e84685-b993-44c1-b1f5-bd0c0d1883cb))
   (segment (start 172.525 118.298) (end 171.323 117.096) (width 0.3) (layer "F.Cu") (net 39) (tstamp 303f8096-d06f-4812-808e-0fa859f3de41))
   (segment (start 147.9045 124.2403) (end 147.9362 124.272) (width 0.3) (layer "F.Cu") (net 40) (tstamp a1fa12a1-8507-4cd3-b5f7-a7857afc67a3))
   (segment (start 147.9045 123.0376) (end 147.9045 124.2403) (width 0.3) (layer "F.Cu") (net 40) (tstamp bff073e4-f10f-4b43-b9aa-c69d41bb85b0))
   (segment (start 148.0358 128.4943) (end 148.0569 128.4732) (width 0.3) (layer "F.Cu") (net 41) (tstamp 4d495f16-327b-452b-abb3-ec9839f86ca7))
   (segment (start 148.0358 129.7076) (end 148.0358 128.4943) (width 0.3) (layer "F.Cu") (net 41) (tstamp c6a8ba49-0978-460a-b2bd-3ef5593ad7c9))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 123.85 114.5) (end 124.05 114.3) (width 0.25) (layer "F.Cu") (net 44) (tstamp 28c059aa-75a0-4e67-9564-5bfa6d282c68))
+  (segment (start 122.8 114.5) (end 123.85 114.5) (width 0.25) (layer "F.Cu") (net 44) (tstamp 2932fd85-5c9f-469d-a71a-46a042e01c17))
+  (segment (start 124.05 114.3) (end 124.05 113.25) (width 0.25) (layer "F.Cu") (net 44) (tstamp aed7f502-facf-4df1-ae88-3d7d42c3e576))
+  (segment (start 126.830222 121.46) (end 127.6548 120.635422) (width 0.25) (layer "F.Cu") (net 44) (tstamp d848cf6f-0548-4016-bba4-ddea192c9789))
+  (segment (start 127.6548 120.635422) (end 127.6548 119.9364) (width 0.25) (layer "F.Cu") (net 44) (tstamp dc648571-6c3c-4ff5-92da-c768844ba81d))
+  (segment (start 126.52 121.46) (end 126.830222 121.46) (width 0.25) (layer "F.Cu") (net 44) (tstamp fc68eb0a-3b7e-49b6-83d9-49d5b4e99868))
+  (via (at 126.52 121.46) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 44) (tstamp 81b1c480-9e19-475e-8371-e3bbf9525f49))
+  (via (at 122.8 114.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 44) (tstamp d17cd3e0-c500-4979-8a3d-513dab584ba7))
+  (segment (start 126.05 114.5) (end 126.52 114.97) (width 0.25) (layer "B.Cu") (net 44) (tstamp 265dd0c0-bec2-4b38-821a-dbe6795e4a7a))
+  (segment (start 126.52 114.97) (end 126.52 121.46) (width 0.25) (layer "B.Cu") (net 44) (tstamp 5b1f3045-a75d-4b94-9b4b-27839038f840))
+  (segment (start 122.8 114.5) (end 126.05 114.5) (width 0.25) (layer "B.Cu") (net 44) (tstamp c58b25bf-a1cc-449b-bf3f-c25e484a3101))
+=======
+>>>>>>> Stashed changes
   (segment (start 124.05 115.66) (end 124.76 116.37) (width 0.25) (layer "F.Cu") (net 44) (tstamp 89e97db0-5f4a-4dde-aeae-e86434b6dba7))
   (segment (start 126.830222 121.46) (end 127.6548 120.635422) (width 0.25) (layer "F.Cu") (net 44) (tstamp d848cf6f-0548-4016-bba4-ddea192c9789))
   (segment (start 127.6548 120.635422) (end 127.6548 119.9364) (width 0.25) (layer "F.Cu") (net 44) (tstamp dc648571-6c3c-4ff5-92da-c768844ba81d))
@@ -4047,6 +4927,10 @@
   (via (at 124.76 116.37) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 44) (tstamp d17cd3e0-c500-4979-8a3d-513dab584ba7))
   (segment (start 124.76 116.37) (end 124.76 119.7) (width 0.25) (layer "B.Cu") (net 44) (tstamp 59276dce-6fac-432f-820e-7d5624ee650e))
   (segment (start 124.76 119.7) (end 126.52 121.46) (width 0.25) (layer "B.Cu") (net 44) (tstamp db9baeaa-6039-44c5-8b15-743eb057d0c6))
+<<<<<<< Updated upstream
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 128.33 121.44) (end 128.3048 121.4148) (width 0.25) (layer "F.Cu") (net 46) (tstamp 1020a21b-a071-4f37-9635-a7ab18f27eab))
   (segment (start 128.5 116.1) (end 129.19 116.1) (width 0.25) (layer "F.Cu") (net 46) (tstamp 4166f6c6-c2c0-47bf-b72e-9b6eb94abd17))
   (segment (start 128.3048 119.9364) (end 128.3048 118.7518) (width 0.25) (layer "F.Cu") (net 46) (tstamp 66da230a-16cc-41d0-8225-1f2ed1ae80c3))
@@ -4061,6 +4945,54 @@
   (segment (start 128.33 121.44) (end 129.2 120.57) (width 0.25) (layer "B.Cu") (net 46) (tstamp a02d81e8-66b6-49c9-a685-108aa39996fb))
   (segment (start 129.2 115.95) (end 128.5 115.25) (width 0.25) (layer "B.Cu") (net 46) (tstamp da622534-4fbf-44ed-b4f3-c40cc512bb52))
   (segment (start 128.5 115.25) (end 128.1 114.85) (width 0.3) (layer "B.Cu") (net 46) (tstamp eae076f3-f35a-462b-ab31-a57157d8cb10))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 130.55 120.35) (end 130.55 119.95) (width 0.3) (layer "F.Cu") (net 58) (tstamp 02f3cb3a-1724-4468-9169-5388c5643fb0))
+  (segment (start 131.25 119.25) (end 131.25 119.2) (width 0.3) (layer "F.Cu") (net 58) (tstamp 0b18a3a1-1ba9-4070-bb3c-776593b7246c))
+  (segment (start 128.6 122.3) (end 130.55 120.35) (width 0.3) (layer "F.Cu") (net 58) (tstamp 5b28ca18-083b-459a-81fe-03693e4de94f))
+  (segment (start 130.55 119.95) (end 131.25 119.25) (width 0.3) (layer "F.Cu") (net 58) (tstamp 93f8e1a7-567f-4078-b953-a14d83541fd2))
+  (segment (start 125.7048 121.9048) (end 126.1 122.3) (width 0.3) (layer "F.Cu") (net 58) (tstamp 9752d23a-76bd-4721-afd7-7a726cc32ab0))
+  (segment (start 125.7048 119.9364) (end 125.7048 121.9048) (width 0.3) (layer "F.Cu") (net 58) (tstamp c6dd1746-4018-4ab3-85c9-5a754afe5a27))
+  (segment (start 126.1 122.3) (end 128.6 122.3) (width 0.3) (layer "F.Cu") (net 58) (tstamp c8c8a534-4190-4b02-be77-1b6546fbc8da))
+  (via (at 131.25 119.2) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 58) (tstamp f7624bc2-9b36-44d7-90e7-2d26fb12c064))
+  (segment (start 129.85 117.8) (end 129.85 115.05) (width 0.3) (layer "B.Cu") (net 58) (tstamp 7b1c4647-21d7-4f52-ab8f-c7663cb49607))
+  (segment (start 129.85 115.05) (end 129.199511 114.399511) (width 0.3) (layer "B.Cu") (net 58) (tstamp 949843c1-c7b2-4fa5-9dbd-68196134924e))
+  (segment (start 131.25 119.2) (end 129.85 117.8) (width 0.3) (layer "B.Cu") (net 58) (tstamp a42bda02-f4dd-46f2-bd3e-398c921f4849))
+  (segment (start 129.199511 109.34812) (end 128.3 108.448609) (width 0.3) (layer "B.Cu") (net 58) (tstamp d1666179-384e-4571-adfd-95f2f6f6d1d1))
+  (segment (start 129.199511 114.399511) (end 129.199511 109.34812) (width 0.3) (layer "B.Cu") (net 58) (tstamp f4786e79-6531-40d4-81c3-a46adfe26986))
+  (segment (start 128.3 108.448609) (end 128.3 99.3) (width 0.3) (layer "B.Cu") (net 58) (tstamp f5cfd425-5f8a-4ee2-8a9a-cb71dd6bde5f))
+  (segment (start 125.0548 119.9364) (end 125.0548 122.1048) (width 0.3) (layer "F.Cu") (net 59) (tstamp 9482d213-0953-4f2c-9e7c-8bcb6bf2fc90))
+  (segment (start 125.85 122.9) (end 129.120128 122.9) (width 0.3) (layer "F.Cu") (net 59) (tstamp 95e6425b-7fcb-4a8a-81c6-544817d9eee5))
+  (segment (start 129.120128 122.9) (end 131.370128 120.65) (width 0.3) (layer "F.Cu") (net 59) (tstamp 9ca85007-9a6b-4a37-9b09-4e1d3346b374))
+  (segment (start 125.0548 122.1048) (end 125.85 122.9) (width 0.3) (layer "F.Cu") (net 59) (tstamp c98cc141-6441-48b8-8b28-297dc4fdefd6))
+  (segment (start 131.370128 120.65) (end 131.75 120.65) (width 0.3) (layer "F.Cu") (net 59) (tstamp e78f2342-cacf-4104-966d-ef0fb03c1538))
+  (via (at 131.75 120.65) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 59) (tstamp 1bcdd4f6-0379-413e-8797-78a52599979a))
+  (segment (start 131.999511 118.889541) (end 130.45 117.34003) (width 0.3) (layer "B.Cu") (net 59) (tstamp 205efa49-c525-4360-bee2-0bfa381e3211))
+  (segment (start 130.45 117.34003) (end 130.45 108.8) (width 0.3) (layer "B.Cu") (net 59) (tstamp 519e95a0-cd41-4379-befc-9f68a5ba078e))
+  (segment (start 131.75 120.65) (end 131.999511 120.400489) (width 0.3) (layer "B.Cu") (net 59) (tstamp 586654f7-78b3-40ea-a6cf-8ac6e83701f0))
+  (segment (start 129.55 100.55) (end 129.45 100.45) (width 0.3) (layer "B.Cu") (net 59) (tstamp 6af9023e-2f19-460c-8617-1fac5d8ede82))
+  (segment (start 131.999511 120.400489) (end 131.999511 118.889541) (width 0.3) (layer "B.Cu") (net 59) (tstamp 764ed263-55a3-44b8-b98f-73b5404a1dda))
+  (segment (start 129.55 107.9) (end 129.55 100.55) (width 0.3) (layer "B.Cu") (net 59) (tstamp de3e0360-43de-4202-9d6f-ea75c79b80cf))
+  (segment (start 130.45 108.8) (end 129.55 107.9) (width 0.3) (layer "B.Cu") (net 59) (tstamp ffb9ab13-96ca-4d52-8690-aac1ddb38731))
+  (segment (start 124.4048 119.9364) (end 124.4048 122.3048) (width 0.3) (layer "F.Cu") (net 61) (tstamp 3ecfda10-65bd-4ffb-9376-eed28578f102))
+  (segment (start 128.05 123.616602) (end 128.017102 123.6495) (width 0.3) (layer "F.Cu") (net 61) (tstamp 71b1a68f-6899-4ba2-90fe-8f8d674a16dc))
+  (segment (start 124.4048 122.3048) (end 125.65 123.55) (width 0.3) (layer "F.Cu") (net 61) (tstamp 8c0b6e52-da4f-4249-b499-9c167ec6372f))
+  (segment (start 128.05 123.6) (end 128.05 123.616602) (width 0.3) (layer "F.Cu") (net 61) (tstamp 8f61cc5f-5097-4e52-b2a3-4062fbe81c20))
+  (segment (start 125.7 123.6) (end 128.05 123.6) (width 0.3) (layer "F.Cu") (net 61) (tstamp d04a25c1-a379-4bff-a12d-7695919e6f89))
+  (segment (start 125.65 123.55) (end 125.7 123.6) (width 0.3) (layer "F.Cu") (net 61) (tstamp fe3095cd-2a71-4268-b655-2b66c152b551))
+  (via (at 128.017102 123.6495) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 61) (tstamp 2b7fcf09-e328-437d-92c8-775d9c373e6c))
+  (segment (start 130.6005 123.6495) (end 132.7 121.55) (width 0.3) (layer "B.Cu") (net 61) (tstamp 121bc6e4-bfc6-4c44-9453-55b39363e1f5))
+  (segment (start 132.7 118.65) (end 131.15 117.1) (width 0.3) (layer "B.Cu") (net 61) (tstamp 4ddf0378-d673-4167-9fc0-f0dc64437b25))
+  (segment (start 131.15 108.5) (end 130.25 107.6) (width 0.3) (layer "B.Cu") (net 61) (tstamp 680f4818-cd5f-4836-a6e7-e1b2cb89fdde))
+  (segment (start 131.15 117.1) (end 131.15 108.5) (width 0.3) (layer "B.Cu") (net 61) (tstamp 804994d9-ba0a-4f8c-beea-3e3fccb44ca5))
+  (segment (start 130.25 107.6) (end 130.25 100.6) (width 0.3) (layer "B.Cu") (net 61) (tstamp b611986a-429a-4ec4-b68c-9e13ad9c7812))
+  (segment (start 128.017102 123.6495) (end 130.6005 123.6495) (width 0.3) (layer "B.Cu") (net 61) (tstamp bdfa914c-a3f4-4292-9e6c-d78cc240dc76))
+  (segment (start 132.7 121.55) (end 132.7 118.65) (width 0.3) (layer "B.Cu") (net 61) (tstamp d4632d71-a110-495b-a277-b466a7252dca))
+  (segment (start 130.25 100.6) (end 130.35 100.5) (width 0.3) (layer "B.Cu") (net 61) (tstamp edc1fbf4-5316-4796-a0a2-3a25a7c79a49))
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 171.034 97.79) (end 169.082 95.838) (width 0.3) (layer "F.Cu") (net 68) (tstamp 3a8be6fe-eb20-4196-9552-5a2908230804))
   (segment (start 173.2 101.1) (end 174.2366 101.1) (width 0.3) (layer "F.Cu") (net 68) (tstamp 62ce530b-5828-49bf-a472-daf9b2acd77d))
   (segment (start 173.2906 97.79) (end 171.034 97.79) (width 0.3) (layer "F.Cu") (net 68) (tstamp 84bde7b3-c3b5-4c4d-b237-cc78c028ee61))
@@ -4141,6 +5073,52 @@
   (via (at 171.45 102.235) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 78) (tstamp 2b8ee982-ac60-427e-935d-10b72ff8121f))
   (via (at 167.386 98.298) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 78) (tstamp 938b8294-0998-48f3-ba49-b015b9d03ad5))
   (via (at 170.942 100.457) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 78) (tstamp 9d7a11e0-9b7f-4c98-97e3-94c0f28034bd))
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  (segment (start 170.942 100.457) (end 171.45 100.965) (width 0.3) (layer "B.Cu") (net 78) (tstamp 127837cf-d604-4ec0-94da-ca3765182c6a))
+  (segment (start 171.45 100.965) (end 171.45 102.235) (width 0.3) (layer "B.Cu") (net 78) (tstamp 17e28836-7cca-4a9d-8bae-209b557dbbc6))
+  (segment (start 167.386 98.298) (end 169.545 100.457) (width 0.3) (layer "B.Cu") (net 78) (tstamp 1de7a25b-5d90-4e69-a32a-9479ec308581))
+  (segment (start 167.386 97.664) (end 167.386 98.298) (width 0.3) (layer "B.Cu") (net 78) (tstamp 3aced4e4-413c-4aff-aa0e-177d93a75f3a))
+  (segment (start 169.082 93.298) (end 167.767 94.613) (width 0.3) (layer "B.Cu") (net 78) (tstamp 3da70321-df38-494a-8ad3-f9b32809d427))
+  (segment (start 167.767 94.613) (end 167.767 97.283) (width 0.3) (layer "B.Cu") (net 78) (tstamp 55917954-d96c-48f9-a0dc-f548b24e6cf3))
+  (segment (start 167.767 97.283) (end 167.386 97.664) (width 0.3) (layer "B.Cu") (net 78) (tstamp 923a5cea-0ba5-4b0c-9f62-744a81fd324a))
+  (segment (start 169.545 100.457) (end 170.942 100.457) (width 0.3) (layer "B.Cu") (net 78) (tstamp aa0c8020-4054-4835-b35c-731e0be1d74a))
+  (segment (start 157.305 122.428) (end 157.605 122.128) (width 0.3) (layer "F.Cu") (net 79) (tstamp 06773b67-2f66-41b5-aaa0-0b1173dd4ef2))
+  (segment (start 156.4215 122.428) (end 157.305 122.428) (width 0.3) (layer "F.Cu") (net 79) (tstamp a4949a7d-fbc4-4ad8-b6dd-5488caf4597e))
+  (segment (start 128.2358 113.6142) (end 128.5 113.35) (width 0.4) (layer "F.Cu") (net 80) (tstamp 09bcbba5-1c28-4649-a7ee-7f188f9dbd97))
+  (segment (start 126.176 114.024) (end 124.8 115.4) (width 0.8) (layer "F.Cu") (net 80) (tstamp 1847057b-e66e-49cf-9fb6-19fe6ce11dd4))
+  (segment (start 133 106.75) (end 133 105.55) (width 0.8) (layer "F.Cu") (net 80) (tstamp 1c539b46-1376-4c42-ab33-22b1b9f1f777))
+  (segment (start 128.5 108.35) (end 128.5 113.35) (width 0.8) (layer "F.Cu") (net 80) (tstamp 40d5aa01-251b-4984-a7a6-9bb9361ec4a4))
+  (segment (start 126.176 113.6142) (end 126.176 112.3442) (width 0.25) (layer "F.Cu") (net 80) (tstamp 5126758d-6621-4d1e-b52c-969249180f65))
+  (segment (start 131.3 105.55) (end 128.5 108.35) (width 0.8) (layer "F.Cu") (net 80) (tstamp 5f2a413d-d59a-4f6e-9063-7eeb025725fa))
+  (segment (start 133 105.55) (end 131.3 105.55) (width 0.8) (layer "F.Cu") (net 80) (tstamp 759f5f81-ab9a-406a-afde-c34704b2cb62))
+  (segment (start 124.8 115.4) (end 124.8 117.85) (width 0.8) (layer "F.Cu") (net 80) (tstamp a028ed4b-f240-4dcb-aa0a-cacc938021e7))
+  (segment (start 126.176 112.3442) (end 128.3058 112.3442) (width 0.4) (layer "F.Cu") (net 80) (tstamp aa749872-46a6-4e4a-972c-30d49cc9c214))
+  (segment (start 126.176 113.6142) (end 128.2358 113.6142) (width 0.4) (layer "F.Cu") (net 80) (tstamp b0c89dca-21c1-475c-97a1-6095c0464be0))
+  (segment (start 126.176 113.6142) (end 126.176 114.024) (width 0.8) (layer "F.Cu") (net 80) (tstamp b9026f9d-c2c3-427b-bd70-598bd71a537a))
+  (segment (start 128.3058 112.3442) (end 128.35 112.3) (width 0.4) (layer "F.Cu") (net 80) (tstamp ee9348e4-fb19-48f0-87c1-48733ac10b1b))
+  (via (at 133 106.75) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp 5f3cd864-501b-43f9-90c2-904666f41014))
+  (via (at 124.8 115.4) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp 642403ab-f79f-4763-9bd3-594ba6d9d150))
+  (via (at 124.8 116.8) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp 94a15a5c-f40e-4eff-ba03-34864f6c1260))
+  (via (at 124.8 117.85) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp 9b3096d0-2c4a-465f-8be7-77f9ccfff1ab))
+  (via (at 133 105.55) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp f80b97cf-dff0-4dab-9912-a14ecfc6341d))
+  (via (at 131.85 105.55) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp fac9fa45-d2cd-4e87-b45e-bc32da0be1fb))
+  (segment (start 131.85 105.55) (end 133 105.55) (width 0.8) (layer "B.Cu") (net 80) (tstamp 0ccba58d-e7c5-4563-807a-43c19d9a37df))
+  (segment (start 122.9 121.55) (end 121.075 123.375) (width 0.8) (layer "B.Cu") (net 80) (tstamp 23cb85aa-e4ac-485a-8449-1d0fc2a1b76f))
+  (segment (start 124.8 122.45) (end 125.4 123.05) (width 0.8) (layer "B.Cu") (net 80) (tstamp 26dd53fc-f898-4808-854f-5f29b9b5b021))
+  (segment (start 124.8 121.45) (end 124.8 122.45) (width 0.8) (layer "B.Cu") (net 80) (tstamp 3cfe9293-796b-49cd-8863-06dbd1a9f84e))
+  (segment (start 124.8 121.45) (end 123 121.45) (width 0.8) (layer "B.Cu") (net 80) (tstamp 75d5a1cb-58fa-4ad0-a577-d08e05d776f9))
+  (segment (start 133.05 106.7) (end 153.845 106.7) (width 0.8) (layer "B.Cu") (net 80) (tstamp 794a6085-1e21-4d1e-b770-52f330e40e78))
+  (segment (start 153.845 106.7) (end 153.984 106.839) (width 0.8) (layer "B.Cu") (net 80) (tstamp bb78db88-2444-4337-b7c8-f5048972e962))
+  (segment (start 124.8 115.4) (end 124.8 119.65) (width 0.8) (layer "B.Cu") (net 80) (tstamp c09e8794-1758-4016-bf00-8b8a2bd02fb5))
+  (segment (start 123 121.45) (end 122.9 121.55) (width 0.8) (layer "B.Cu") (net 80) (tstamp cda75d8b-18de-48b2-b3f7-50a358bdc3a6))
+  (segment (start 133 105.55) (end 133 106.75) (width 0.8) (layer "B.Cu") (net 80) (tstamp d0166443-9690-4bc3-a3f9-6fc784dd1fec))
+  (segment (start 121.075 123.375) (end 120.7 123.375) (width 0.8) (layer "B.Cu") (net 80) (tstamp daf3448f-fb50-4a5a-8966-a2b2ea4e5203))
+  (segment (start 133 106.75) (end 133.05 106.7) (width 0.8) (layer "B.Cu") (net 80) (tstamp e9add036-7aaa-4543-be71-4478db7eb401))
+  (segment (start 124.8 119.65) (end 124.8 121.45) (width 0.8) (layer "B.Cu") (net 80) (tstamp f3366914-fa68-4b43-b282-dd437bc653b4))
+=======
+>>>>>>> Stashed changes
   (segment (start 167.767 97.917) (end 167.767 97.580661) (width 0.3) (layer "B.Cu") (net 78) (tstamp 10ee80bc-66a5-4f9d-b14e-7a1bea368263))
   (segment (start 170.942 100.457) (end 171.45 100.965) (width 0.3) (layer "B.Cu") (net 78) (tstamp 127837cf-d604-4ec0-94da-ca3765182c6a))
   (segment (start 171.45 100.965) (end 171.45 102.235) (width 0.3) (layer "B.Cu") (net 78) (tstamp 17e28836-7cca-4a9d-8bae-209b557dbbc6))
@@ -4152,6 +5130,10 @@
   (segment (start 157.305 122.428) (end 157.605 122.128) (width 0.3) (layer "F.Cu") (net 79) (tstamp 06773b67-2f66-41b5-aaa0-0b1173dd4ef2))
   (segment (start 156.4215 122.428) (end 157.305 122.428) (width 0.3) (layer "F.Cu") (net 79) (tstamp a4949a7d-fbc4-4ad8-b6dd-5488caf4597e))
   (segment (start 126.176 113.6142) (end 126.176 112.3442) (width 0.25) (layer "F.Cu") (net 80) (tstamp 5126758d-6621-4d1e-b52c-969249180f65))
+<<<<<<< Updated upstream
+=======
+>>>>>>> c6a2fec3445bea2605a9098671a8a72c9154f20e
+>>>>>>> Stashed changes
   (segment (start 140.414 122.428) (end 140.714 122.128) (width 0.3) (layer "F.Cu") (net 81) (tstamp 1938ebb9-9a83-4347-b864-86924801efe9))
   (segment (start 139.5305 122.428) (end 140.414 122.428) (width 0.3) (layer "F.Cu") (net 81) (tstamp 2f4fa30d-6a40-4a9c-990b-79b0e532fde1))
   (segment (start 119.632 109.9) (end 119.632 111.4785) (width 0.3) (layer "F.Cu") (net 82) (tstamp 5ce050d2-4232-4ad8-b94c-e103aabe0466))
