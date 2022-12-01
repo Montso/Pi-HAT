@@ -1615,7 +1615,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c52831-5dc5-43c5-a442-8d23643b46fb)
   )
-  (label "GPIO19_SPI_MISO" (at 93.345 95.885 0)
+  (label "GPIO9_SPI_MISO" (at 93.345 95.885 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 087d757a-b53a-4747-ab5b-c040f89a5c57)
   )
@@ -1643,7 +1643,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 28b202ae-18b3-4661-afbe-6e8f5d2abda5)
   )
-  (label "GPIO16_SPI_CE2_N" (at 93.345 88.265 0)
+  (label "GPIO8_SPI_CE0_N" (at 93.345 88.265 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2d53f0fc-0dce-43c7-875d-9d6879219fad)
   )
@@ -1679,7 +1679,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63ff1c93-3f96-4c33-b498-5dd8c33bccc0)
   )
-  (label "GPIO20_SPI_MOSI" (at 93.345 93.345 0)
+  (label "GPIO10_SPI_MOSI" (at 93.345 93.345 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 677c449a-3250-433b-b146-9a8a87a06319)
   )
@@ -1723,7 +1723,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a1823eb2-fb0d-4ed8-8b96-04184ac3a9d5)
   )
-  (label "GPIO21_SPI_SCLK" (at 93.345 90.805 0)
+  (label "GPIO11_SPI_SCLK" (at 93.345 90.805 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a65c44b3-28e2-41ac-bbc4-113ce632c908)
   )
@@ -2849,18 +2849,6 @@
     )
     (path "/d7c66af1-6c08-458e-8338-6725a48e4fd1/7cd63105-13f9-4c3a-aabb-b92c656059ef"
       (reference "R17") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/cca3808a-d6bb-44a3-ad1d-2a1c034fb726"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/73e3223a-0afd-438b-8fcb-933535615d47"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/6caf196e-dcfe-4294-9da5-689e6f22f042"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/715798e8-ada1-4b31-bdfe-4378c151d2b8/3b600e6a-acbe-4f8c-ad56-d17f4e961218"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/5ec412a6-29a4-46a1-a19b-d00a58557335/e5da6f3f-d704-4afe-8d35-e0a9bac612ad"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
