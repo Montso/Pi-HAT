@@ -623,15 +623,13 @@
     (uuid f8515b71-f412-438d-8d8c-f1d36aefe7e7)
   )
 
-  (text "CS pin is active low. Allows spi cmmunication when active"
-    (at 224.79 118.745 0)
+  (text "all spi done via buffer " (at 55.88 123.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 57cbc8de-3ade-4cb1-b5db-ccb49c1caff3)
+    (uuid 4f50dce5-834c-4cda-a9f2-50696ce85964)
   )
-  (text "OE, active low. Sets buffers to\nhigh impedance at high"
-    (at 52.705 105.41 0)
+  (text "all spi done via buffer " (at 121.285 106.045 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 97c6a45e-cf6e-49d4-aa7f-f47d7ac2a1bf)
+    (uuid a2da2311-cb16-4982-811a-0f5c6f01d88b)
   )
   (text "Test points" (at 271.78 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

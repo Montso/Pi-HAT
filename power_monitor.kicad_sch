@@ -5,12 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Pi_ADC")
-    (date "2021-01-23")
+    (title "Power Monitor")
+    (date "2022-12-18")
     (rev "v0.0")
-    (company "Private")
-    (comment 3 "@Author Montso Mokake ")
-    (comment 4 "@Original Pi_ADC/Justin Pead")
+    (comment 1 "@author Montso Mokake ")
+    (comment 2 "@reference Pi_ADC/Justin Pead")
   )
 
   (lib_symbols
