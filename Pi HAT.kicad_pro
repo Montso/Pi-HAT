@@ -71,20 +71,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -94,9 +100,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -105,7 +116,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -113,18 +123,63 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.25,
@@ -161,7 +216,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1701800|1028700|17d31e3a-c975-42f3-a752-1fd8438e04e0|01f79990-2ea2-469f-92f3-d6e92217b639|||",
+      "multiple_net_names|1701800|660400|b11d9477-cc3d-4fa6-b9a5-a425f58369d4|fcf2650e-b508-4d92-894b-dbac6320c1bb|||",
+      "pin_to_pin|1206500|1003300|c7998dc0-ec88-46a2-8b14-ade027627d71|9551ab3e-3f41-44ad-ac87-372d32868b23|/48f827a8-6e22-4a2e-abdc-c2a03098d883/5ec412a6-29a4-46a1-a19b-d00a58557335|/48f827a8-6e22-4a2e-abdc-c2a03098d883/5ec412a6-29a4-46a1-a19b-d00a58557335|/48f827a8-6e22-4a2e-abdc-c2a03098d883/715798e8-ada1-4b31-bdfe-4378c151d2b8",
+      "power_pin_not_driven|1320800|812800|1a72995c-002b-4666-98df-21b835130bbe|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -345,7 +405,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -478,6 +538,10 @@
     [
       "715798e8-ada1-4b31-bdfe-4378c151d2b8",
       "Power Monitor"
+    ],
+    [
+      "dad399bb-460b-4f5e-b266-a80a3ab180e2",
+      "HX711"
     ]
   ],
   "text_variables": {}
