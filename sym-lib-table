@@ -1,3 +1,7 @@
 (sym_lib_table
-  (lib (name "ADC108S022CIMTX")(type "Legacy")(uri "C:/Users/monts/OneDrive - University of Cape Town/Projects/Pi HAT/pi_hat/AD7730/AD7730.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "ADC108S022CIMTX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Additional Libraries/ADC108S022CIMTX_NOPB/ADC108S022CIMTX_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "TMP235A2DCKR")(type "KiCad")(uri "${KIPRJMOD}/Additional Libraries/TMP235A2DCKR/TMP235A2DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "AD7730")(type "Legacy")(uri "${KIPRJMOD}/Additional Libraries/AD7730/AD7730.lib")(options "")(descr ""))
+  (lib (name "74LVC125APW_118")(type "Legacy")(uri "${KIPRJMOD}/Additional Libraries/74LVC125APW_118/74LVC125APW_118.lib")(options "")(descr ""))
 )
