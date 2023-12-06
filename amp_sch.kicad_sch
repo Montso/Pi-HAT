@@ -5,7 +5,7 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "74LVC125A:74LVC125APW,118" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "74LVC125APW_118:74LVC125APW,118" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -5.3594 20.3962 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -38,7 +38,7 @@
       )
       (symbol "74LVC125APW,118_0_0"
         (rectangle (start -12.7 -22.86) (end 12.7 17.78)
-          (stroke (width 0.4064) (type default))
+          (stroke (width 0.4064) (type solid))
           (fill (type background))
         )
         (pin input line (at -17.78 7.62 0) (length 5.08)
@@ -120,7 +120,7 @@
       )
       (symbol "AD7730_0_0"
         (rectangle (start -12.7 -30.48) (end 12.7 27.94)
-          (stroke (width 0.254) (type default))
+          (stroke (width 0.254) (type solid))
           (fill (type background))
         )
         (pin input line (at 15.24 5.08 180) (length 2.54)
@@ -1463,7 +1463,7 @@
     )
   )
 
-  (symbol (lib_id "74LVC125A:74LVC125APW,118") (at 102.87 107.95 0) (unit 1)
+  (symbol (lib_id "74LVC125APW_118:74LVC125APW,118") (at 102.87 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efbe0f43-2997-43b2-b307-a9e0d23db53f)
     (property "Reference" "U1" (at 102.87 85.09 0)
