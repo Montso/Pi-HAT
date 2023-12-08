@@ -7,4 +7,5 @@
   (lib (name "TMP235A2DCKR")(type "KiCad")(uri "${KIPRJMOD}/Additional Libraries/TMP235A2DCKR")(options "")(descr ""))
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
   (lib (name "UCT")(type "KiCad")(uri "${KIPRJMOD}/Additional Libraries/uct_kicad_library/footprints")(options "")(descr ""))
+  (lib (name "Downloads")(type "KiCad")(uri "C:/Users/monts/Downloads")(options "")(descr ""))
 )
