@@ -2326,7 +2326,7 @@
     (property "Datasheet" "https://www.lcsc.com/product-detail/Screw-terminal_Phoenix-Contact-1984633_C5144867.html" (at 159.258 148.844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Populate" "0" (at 159.258 148.844 0)
+    (property "Populate" "1" (at 159.258 148.844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf4e776e-958e-43a0-ace1-ba652c3a2390))
