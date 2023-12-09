@@ -1199,7 +1199,7 @@
     (property "Value" "RATE" (at 163.83 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" (at 162.56 101.6 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 162.56 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 101.6 0)
