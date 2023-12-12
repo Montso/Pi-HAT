@@ -30,23 +30,5 @@ Barrel_Jack,J4,Barrel_Jack_2A_C84007,C84007
 S8550,Q1,SOT-23,C8542
 1N5819,"D1,D2",D_SOD-123,C8598
 10u,"C1,C15,C18,C22,C3",C_0603_1608Metric,C96446
-Conn_01x03_Male,J9,PinHeader_1x03_P2.54mm_Vertical,
-AD7730,IC1,TSSOP-24_4.4x7.8mm_P0.65mm,
-Conn_01x02_Male,J11,PinHeader_1x02_P2.54mm_Vertical,
-EXCITATION,JP12,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm,
-TestPoint,TP7,TestPoint_Pad_D1.5mm,
-Jumper_NO_Small,JP8,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,
-TestPoint,TP6,TestPoint_Pad_D1.5mm,
-Jumper_3_Open,JP3,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,
-Jumper_NC_Small,JP5,SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,
-RATE,JP10,SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,
-Jumper_3_Open,JP1,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,
-TestPoint,TP8,TestPoint_Pad_D1.5mm,
-GPIO_CONNECTOR,J7,PinSocket_2x20_P2.54mm_Vertical_Centered_Anchor,
-S-,JP11,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm,
-Jumper_3_Open,JP7,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,
-S+,JP9,SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm,
-Jumper_3_Open,JP2,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,
-TestPoint,TP5,TestPoint_Pad_D1.5mm,
-Jumper_3_Open,JP4,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm,
-Jumper_NO_Small,JP6,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,
+Conn_01x03_Male,J9,PinHeader_1x03_P2.54mm_Vertical, C2935909
+Conn_01x02_Male,J11,PinHeader_1x02_P2.54mm_Vertical, C234182
