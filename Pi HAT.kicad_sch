@@ -1709,6 +1709,10 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid a805866d-5b5c-46b9-adfb-8e00f5f1c814)
   )
+  (text "Mistake on the 8550 footprint" (at 87.63 21.59 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b1ce14ce-13ad-4b2e-87a6-4995d1d28903)
+  )
   (text "Relay control" (at 147.955 52.07 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid fb426dcc-936c-4898-a43d-e2334f8cf419)
@@ -2199,9 +2203,9 @@
     (property "Datasheet" "~" (at 160.274 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 03880c0e-a154-4cb7-8450-58c869edee4a))
     (pin "1" (uuid f08e06ef-7f8e-4b3c-bba8-4237f61d8d1e))
     (pin "2" (uuid 0edebae5-33d8-47f1-8198-ff8649983637))
+    (pin "3" (uuid 03880c0e-a154-4cb7-8450-58c869edee4a))
     (instances
       (project "Pi HAT"
         (path "/48f827a8-6e22-4a2e-abdc-c2a03098d883"
@@ -2793,9 +2797,9 @@
     (property "Datasheet" "~" (at 160.274 128.524 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 256373e1-cfe7-4f15-90fc-52b4a69054d0))
     (pin "1" (uuid 9bfe0420-1e1b-411f-8e76-3f0a60eafd6f))
     (pin "2" (uuid 8f83beb3-a8df-4112-a297-f32fe5d5127c))
+    (pin "3" (uuid 256373e1-cfe7-4f15-90fc-52b4a69054d0))
     (instances
       (project "Pi HAT"
         (path "/48f827a8-6e22-4a2e-abdc-c2a03098d883"
@@ -2855,9 +2859,9 @@
     (property "Datasheet" "~" (at 160.274 109.728 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 496aebb3-2371-4ed3-b5fb-3d05bf67a35b))
     (pin "1" (uuid b04befda-c3b3-4dc4-9e1c-640bc3affdba))
     (pin "2" (uuid 43c7e708-6d8f-434c-8c2c-e571f811983a))
+    (pin "3" (uuid 496aebb3-2371-4ed3-b5fb-3d05bf67a35b))
     (instances
       (project "Pi HAT"
         (path "/48f827a8-6e22-4a2e-abdc-c2a03098d883"
