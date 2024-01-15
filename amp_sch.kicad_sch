@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "1.1.0")
+  )
+
   (lib_symbols
     (symbol "74LVC125APW_118:74LVC125APW,118" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -5.3594 20.3962 0)

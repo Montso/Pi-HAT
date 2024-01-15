@@ -7,7 +7,7 @@
   (title_block
     (title "HX711 Circuit")
     (date "2023-12-05")
-    (rev "0.0.0")
+    (rev "1.1.0")
     (company "https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide")
   )
 

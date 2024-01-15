@@ -7,7 +7,7 @@
   (title_block
     (title "Power Monitor")
     (date "2022-12-18")
-    (rev "v0.0")
+    (rev "1.1.0")
     (comment 1 "@author Montso Mokake ")
     (comment 2 "@reference Pi_ADC/Justin Pead")
   )
