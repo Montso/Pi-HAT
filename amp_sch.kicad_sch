@@ -5,7 +5,11 @@
   (paper "A4")
 
   (title_block
-    (rev "1.2.0")
+    (title "Raspberry Pi Zero Intrumentation HAT")
+    (date "2024-06-07")
+    (rev "1.3.0")
+    (comment 1 "@supervisor Justin Pead")
+    (comment 2 "@author Montso Mokake")
   )
 
   (lib_symbols
