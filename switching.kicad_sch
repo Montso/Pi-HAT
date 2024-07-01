@@ -1409,13 +1409,19 @@
 		)
 	)
 	(junction
-		(at 83.82 107.95)
+		(at 92.71 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0819d3eb-36d3-4626-aa16-93d068f94121")
+	)
+	(junction
+		(at 88.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c7fff46-94ec-4a77-bed0-d75780e7813c")
 	)
 	(junction
-		(at 83.82 81.28)
+		(at 29.21 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ceacb75-1fe2-4851-8319-b1baa4c3ca4f")
@@ -1433,10 +1439,10 @@
 		(uuid "2efdb91d-1841-4143-8bee-1c9435c0360e")
 	)
 	(junction
-		(at 110.49 74.93)
+		(at 55.88 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a3c00e-0f17-46c7-9ce0-4ef70e1a1578")
+		(uuid "33efa4fc-5732-45a1-85e0-75e8dba7e157")
 	)
 	(junction
 		(at 180.34 115.57)
@@ -1451,13 +1457,13 @@
 		(uuid "6bf7f5f3-8e96-4d75-8ba5-a8ad44b1f631")
 	)
 	(junction
-		(at 110.49 114.3)
+		(at 115.57 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79710efb-2003-4669-86e4-fe167859b60d")
 	)
 	(junction
-		(at 110.49 101.6)
+		(at 115.57 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8018b06f-7820-4487-b732-ab20029573cf")
@@ -1469,6 +1475,18 @@
 		(uuid "8951b670-a4ad-4ab1-a53a-5c3efb948c66")
 	)
 	(junction
+		(at 92.71 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03b1443-dbdc-48df-ae70-c07bc45ae153")
+	)
+	(junction
+		(at 55.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2615ade-a821-42a4-a8e4-067ea8f1f3e2")
+	)
+	(junction
 		(at 205.74 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 106.68 104.14)
+			(xy 88.9 104.14) (xy 111.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 104.14) (xy 106.68 107.95)
+			(xy 111.76 104.14) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1534,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 110.49 87.63)
+			(xy 33.02 114.3) (xy 55.88 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1564,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 110.49 119.38)
+			(xy 92.71 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245d0845-793c-457d-9173-17b295222447")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 120.65 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 110.49 74.93)
+			(xy 33.02 101.6) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 83.82 81.28)
+			(xy 19.05 107.95) (xy 29.21 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 110.49 101.6)
+			(xy 134.62 97.79) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 83.82 104.14)
+			(xy 88.9 107.95) (xy 88.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1726,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 101.6) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6896de-fb26-4ec4-b6d5-f76e0736e54f")
+	)
+	(wire
+		(pts
 			(xy 205.74 109.22) (xy 205.74 106.68)
 		)
 		(stroke
@@ -1736,7 +1774,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 83.82 107.95)
+			(xy 120.65 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ec6103-ce22-4dca-98f8-0aeb2cacfa4a")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1826,16 +1874,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 69.85) (xy 110.49 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fda038-31c0-4624-a61e-80c1e5f108c1")
-	)
-	(wire
-		(pts
 			(xy 180.34 115.57) (xy 181.61 115.57)
 		)
 		(stroke
@@ -1886,6 +1924,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 114.3) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d521c3bf-8955-4982-8e50-7a5a482c3605")
+	)
+	(wire
+		(pts
 			(xy 204.47 78.74) (xy 207.01 78.74)
 		)
 		(stroke
@@ -1906,16 +1954,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 101.6) (xy 110.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf5836f-1cfc-45bc-9bae-fa3a31c71888")
-	)
-	(wire
-		(pts
 			(xy 177.8 78.74) (xy 182.88 78.74)
 		)
 		(stroke
@@ -1926,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 114.3) (xy 110.49 114.3)
+			(xy 92.71 114.3) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 77.47)
+			(xy 29.21 107.95) (xy 29.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +1994,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 106.68 77.47)
+			(xy 29.21 104.14) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 106.68 81.28)
+			(xy 52.07 104.14) (xy 52.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2049,7 @@
 	)
 	(hierarchical_label "5V_In"
 		(shape input)
-		(at 110.49 119.38 0)
+		(at 120.65 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2032,18 +2070,6 @@
 			(justify right)
 		)
 		(uuid "0bf03ff8-caea-4e02-a848-a87fa4f7b088")
-	)
-	(hierarchical_label "5V_In"
-		(shape input)
-		(at 110.49 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1446034a-5070-4794-9895-a0aa5c67e735")
 	)
 	(hierarchical_label "COM2"
 		(shape input)
@@ -2071,7 +2097,7 @@
 	)
 	(hierarchical_label "12V_In"
 		(shape input)
-		(at 110.49 97.79 90)
+		(at 134.62 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2092,18 +2118,6 @@
 			(justify left)
 		)
 		(uuid "4e6ebe53-7fbc-44dd-892b-20424b4dbc9e")
-	)
-	(hierarchical_label "12V_In"
-		(shape input)
-		(at 110.49 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "535d08da-2562-4f62-ab30-ad3cfeb58a03")
 	)
 	(hierarchical_label "COM1"
 		(shape input)
@@ -2155,7 +2169,7 @@
 	)
 	(hierarchical_label "COM1"
 		(shape input)
-		(at 73.66 81.28 180)
+		(at 19.05 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2167,7 +2181,7 @@
 	)
 	(hierarchical_label "COM2"
 		(shape input)
-		(at 73.66 107.95 180)
+		(at 87.63 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2498,7 +2512,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 87.63 107.95 270)
+		(at 92.71 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2507,7 +2521,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cea2511-19cf-4e4f-9c41-4cf195858735")
 		(property "Reference" "JP2"
-			(at 90.17 106.6799 90)
+			(at 95.25 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2530,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 90.17 109.2199 90)
+			(at 95.25 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 87.63 107.95 0)
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 107.95 0)
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 107.95 0)
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2566,7 @@
 			)
 		)
 		(property "Populate" "0"
-			(at 87.63 107.95 0)
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2610,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue_LED"
+		(property "Value" "Red_LED"
 			(at 207.01 111.125 90)
 			(effects
 				(font
@@ -2700,7 +2714,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "1k"
 			(at 213.36 72.39 90)
 			(effects
 				(font
@@ -2753,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C11702"
 			(at 213.36 69.85 0)
 			(effects
 				(font
@@ -2779,7 +2793,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 110.49 81.28 270)
+		(at 55.88 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2788,7 +2802,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fa4db02-8bf3-4890-b559-42cdfbff1551")
 		(property "Reference" "JP3"
-			(at 113.03 80.0099 90)
+			(at 58.42 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2811,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 113.03 82.5499 90)
+			(at 58.42 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 110.49 81.28 0)
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 81.28 0)
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 81.28 0)
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2847,7 @@
 			)
 		)
 		(property "Populate" "0"
-			(at 110.49 81.28 0)
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2991,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blue_LED"
+		(property "Value" "Red_LED"
 			(at 205.74 74.295 90)
 			(effects
 				(font
@@ -3185,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "1k"
 			(at 214.63 109.22 90)
 			(effects
 				(font
@@ -3238,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C11702"
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -3257,6 +3271,74 @@
 			(project "Pi HAT"
 				(path "/48f827a8-6e22-4a2e-abdc-c2a03098d883/d7c66af1-6c08-458e-8338-6725a48e4fd1"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 118.11 101.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8232403a-363d-4d6c-af76-ff92ed4737e1")
+		(property "Reference" "JP15"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UCT:Jumper_Open_wide"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d60af526-16dc-4496-9374-992d7841a44b")
+		)
+		(pin "2"
+			(uuid "3b0b3d2d-501b-45f6-a9f9-a1f3ab41074d")
+		)
+		(instances
+			(project "Pi HAT"
+				(path "/48f827a8-6e22-4a2e-abdc-c2a03098d883/d7c66af1-6c08-458e-8338-6725a48e4fd1"
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -3461,6 +3543,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 118.11 114.3 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9811dc57-5ff0-4c1b-be0d-fe145b49642e")
+		(property "Reference" "JP14"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UCT:Jumper_Open_wide"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476f87be-ab82-48ac-992a-2d06d3101810")
+		)
+		(pin "2"
+			(uuid "3f01acce-72ea-4890-a57f-281b7ef25123")
+		)
+		(instances
+			(project "Pi HAT"
+				(path "/48f827a8-6e22-4a2e-abdc-c2a03098d883/d7c66af1-6c08-458e-8338-6725a48e4fd1"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 128.27 0)
 		(unit 1)
@@ -3528,7 +3678,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 110.49 107.95 270)
+		(at 115.57 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3537,7 +3687,7 @@
 		(fields_autoplaced yes)
 		(uuid "adf7eab8-11fd-48bc-888e-8faa86b29151")
 		(property "Reference" "JP4"
-			(at 113.03 106.6799 90)
+			(at 118.11 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3696,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 113.03 109.2199 90)
+			(at 118.11 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3705,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 110.49 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3714,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3732,7 @@
 			)
 		)
 		(property "Populate" "0"
-			(at 110.49 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +4027,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 87.63 81.28 270)
+		(at 33.02 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +4036,7 @@
 		(fields_autoplaced yes)
 		(uuid "f89deedb-7b72-4123-a68d-30d62fbf81e4")
 		(property "Reference" "JP1"
-			(at 90.17 80.0099 90)
+			(at 35.56 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +4045,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 90.17 82.5499 90)
+			(at 35.56 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 87.63 81.28 0)
+			(at 33.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 81.28 0)
+			(at 33.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 81.28 0)
+			(at 33.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4081,7 @@
 			)
 		)
 		(property "Populate" "0"
-			(at 87.63 81.28 0)
+			(at 33.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
